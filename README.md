@@ -33,3 +33,4 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/1eb8441f98e06151aaa0d08f616222f60c3d5764/Extract%20php%207.3.8.png)
 
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/182a81ad01e492f78c4f6a68cc1145da6aaae20e/Extract%20C%3BPHP%20folder.png)
