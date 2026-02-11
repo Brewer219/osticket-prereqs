@@ -21,7 +21,7 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/fc7a4b55879008dda3efab8b373adb1aba640691/Step1%20Downloading%20Rewrite%20File.png)
 
-
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bc43f2bd45ee9264f15d44749d4dac9c8b11ebd2/Finished%20Installed%20Rewrite%20File.png)
 
 
 
