@@ -18,3 +18,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bbcfd4f4c06ac9fcdff791a58911657b59272902/Step%207%20Download%20PHPManagerIIS_v1.5.0.msi.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/dfb512f180493ea058191015df555d52b204f750/Installing%20Rewrite%20file.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/fc7a4b55879008dda3efab8b373adb1aba640691/Step1%20Downloading%20Rewrite%20File.png)
