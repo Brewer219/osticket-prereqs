@@ -23,12 +23,13 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bc43f2bd45ee9264f15d44749d4dac9c8b11ebd2/Finished%20Installed%20Rewrite%20File.png)
 
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/6a91884a41db597844247307a113288edfe49090/This%20PC%2C%20C%3B.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/32f0f746f88ddb929ba23d9e4f97aeab69230b03/CopyPaste%20PHP%20folder%20inside%20C%3B.png)
+
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/5d5a55295cd7e40bf337d6bcc6c102eee9df3d3b/Extract%20unzip%20file%207.3.8.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/72ad0007b5cbd043437c6104558363bfbbbbf9c7/php%207.3.8%20right%20click%20for%20Properties.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/1eb8441f98e06151aaa0d08f616222f60c3d5764/Extract%20php%207.3.8.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/6a91884a41db597844247307a113288edfe49090/This%20PC%2C%20C%3B.png)
-
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/32f0f746f88ddb929ba23d9e4f97aeab69230b03/CopyPaste%20PHP%20folder%20inside%20C%3B.png)
