@@ -25,7 +25,7 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/5d5a55295cd7e40bf337d6bcc6c102eee9df3d3b/Extract%20unzip%20file%207.3.8.png)
 
-
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/72ad0007b5cbd043437c6104558363bfbbbbf9c7/php%207.3.8%20right%20click%20for%20Properties.png)
 
 
 
