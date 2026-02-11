@@ -7,4 +7,6 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/88ee3a654eb31a9c461e106d93cb674b077d8474/Step%202%20of%20Installing%20IIS.png)
 
-![image atle](https://github.com/Brewer219/osticket-prereqs/blob/91bef29f29ae71f353cb4b44f0133d06f00492f6/Step%203%20of%20Installing%20IIS.png)
+![image atll(https://github.com/Brewer219/osticket-prereqs/blob/91bef29f29ae71f353cb4b44f0133d06f00492f6/Step%203%20of%20Installing%20IIS.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/304609fa608a0641d3009b3079f0bf7cfbbebc04/Step%204%20of%20Installing%20IIS.png) 
