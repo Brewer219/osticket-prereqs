@@ -27,5 +27,5 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/72ad0007b5cbd043437c6104558363bfbbbbf9c7/php%207.3.8%20right%20click%20for%20Properties.png)
 
-
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/1eb8441f98e06151aaa0d08f616222f60c3d5764/Extract%20php%207.3.8.png)
 
