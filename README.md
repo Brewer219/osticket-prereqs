@@ -14,3 +14,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/34c06845ebebf66cbaf1e575d3c8f730f14ef77a/Step%205%20of%20Installing%20IIS.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/054e69253aa87b1f5910724ed847d27b52034113/Step%206%20of%20Finishing%20IIS%20Web%20page.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bbcfd4f4c06ac9fcdff791a58911657b59272902/Step%207%20Download%20PHPManagerIIS_v1.5.0.msi.png)
