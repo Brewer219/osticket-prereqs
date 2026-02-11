@@ -23,6 +23,7 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bc43f2bd45ee9264f15d44749d4dac9c8b11ebd2/Finished%20Installed%20Rewrite%20File.png)
 
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/5d5a55295cd7e40bf337d6bcc6c102eee9df3d3b/Extract%20unzip%20file%207.3.8.png)
 
 
 
