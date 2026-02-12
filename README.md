@@ -114,3 +114,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/5345e8a785b584ac2a268d1ef0ed243a2673be34/Step%204%20get%20inside%20include%20folder.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f108a7d41a23cf4cdaf40da97afb34c8b89fc11b/Step%205%20ost-.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/8b18aefd9263cd8cdd8cc15ac23b6fab95404f07/Step%206%20ost-.png)
