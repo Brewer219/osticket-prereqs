@@ -98,3 +98,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/e00c5c6d417163f258ead8e863de6a8ed77b699d/Step%2013%20v1.15.8%20click%20DEFAULT.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/63ce53e40c9a33f088920afd5ac99f1f9d212cec/Step%2014%20v1.15.8%20click%20osTICKET.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/cb7d3d11961f7b7bc9f5c07171a3d546d52479b8/Step%2015%20v1.15.8%20click%20Browse%2080.png)
