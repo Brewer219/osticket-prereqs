@@ -80,3 +80,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/9a997737bea86b2d33577748a2d3c82a27f2e1bb/Step%204%20extract%20v1.15.8%20double%20file%20created.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f3f80bb50e09fd40c06d0b4426049eab1a05269d/Step%205%20osTicket%20v1.15.8.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/2ab9d9e416e5c2ef3ce932db0f48224f90cc0f03/Step%206%20v1.15.8%20osTicket.png)
