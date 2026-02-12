@@ -47,6 +47,8 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/a2d8f10228cb901d6c825da025b2dcadc1a3bf16/Step%204%20MySQL%20server%205.5.62.png)
 
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/2101739d9441b2159d566486428890f988021b43/Step%206%20MySQL%20server%205.5.62.png)
+
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/e0b450cf3c0c64e86327835ea3a1d49e3eae2474/Step%205%20MySQL%20server%205.5.62.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/2101739d9441b2159d566486428890f988021b43/Step%206%20MySQL%20server%205.5.62.png)
