@@ -84,3 +84,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/2ab9d9e416e5c2ef3ce932db0f48224f90cc0f03/Step%206%20v1.15.8%20osTicket.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/823f06f46abe39d6dd65896b1d218c978a3163ce/Step%207%20v1.15.8%20copying%20upload%20folder%20into%20wwwroot.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/d4dc0503811e93acb288f1183dc03a5d885c7c41/Step%208%20v1.15.8%20finishing%20with%20copy%20upload%20folder%20into%20wwwroot.png)
