@@ -128,3 +128,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4aabfe5651dbb42d4679f61b9d4c52b0701e0e98/Step%2012%20ost-.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/cad4a606b57ac5a994f4dd72006dc78e34131f21/Step%2013%20ost-.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/c0409e0c086694e96ad98adc9691b8be4432d17b/Step%2014%20ost-.png)
