@@ -60,3 +60,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f517626097909955310d47059d195178c0e7f1b8/Step%203%20Register%20PHP.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/eddab009ecc0fac084ebfaa902d7b0154b7ac55d/Step%204%20click%20php%20binary.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/499ed3aa51af90ee6d97313a20e02d8f7a2bd4e1/Step%205%20complete%20php.cgi%20binary.png)
