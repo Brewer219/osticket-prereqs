@@ -74,3 +74,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/aa4f92980ce63cb4b2263a2c177437cd4515f4cb/Step%201%20Install%20osTicket%20v1.15.8.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/29ebad5ce147192be6f7ed574303bf4c8e1b403a/Step%202%20Extract%20v1.15.8.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/153350082f198221ba206c68e41b4cb0a63fae70/Step%203%20osTicket%20v1.15.8%20inside%20of%20the%20folder.png)
