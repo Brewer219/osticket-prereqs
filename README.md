@@ -110,3 +110,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/12d70e0e259d2322372f7ae33e27115607db6354/Step%2019%20v1.15.8%20PHP%20ext%202.png
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/b1929f878dc9c8f68ca7c9607e6e68baab50c655/Step%2020%20v1.15.8%20PHP%20ext%203.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/5345e8a785b584ac2a268d1ef0ed243a2673be34/Step%204%20get%20inside%20include%20folder.png)
