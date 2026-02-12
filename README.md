@@ -90,3 +90,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/9d1148f4b32dbf058f63fdb03165f1bba995eda8/Step%209%20v1.15.8%20rename%20osTicket%20inside%20wwwroot.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/3600026ad4c83c43727a3003d78fcee6977c78da/Step%2010%20v1.15.8%20click%20STOP%20button.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/dc03ca245c3337388175d3bd947cf76de12fbed8/Step%2011%20v1.15.8%20osTicket%20RESTART%20button%20Hit.png)
