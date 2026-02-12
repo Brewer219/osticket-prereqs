@@ -94,3 +94,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/dc03ca245c3337388175d3bd947cf76de12fbed8/Step%2011%20v1.15.8%20osTicket%20RESTART%20button%20Hit.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/0fc882486861d62236f8050e2b5eb78102e57f24/Step%2012%20v1.15.8%20click%20SITES.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/e00c5c6d417163f258ead8e863de6a8ed77b699d/Step%2013%20v1.15.8%20click%20DEFAULT.png)
