@@ -64,3 +64,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/499ed3aa51af90ee6d97313a20e02d8f7a2bd4e1/Step%205%20complete%20php.cgi%20binary.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4be1f1ced99755e741fc3a7bff7784df151271b8/Step%206%20Finished%20php.cgi%20binagry.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/22c914ee89cb7c43f3ba3ad273f537c74797424b/Step%207%20php%20binary%20clicking%20the%20STOP%20button.png)
