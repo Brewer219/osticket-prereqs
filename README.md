@@ -57,4 +57,4 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/8451322d4c9707c769a61f21646da9a22efb1b20/Step%202%20%20click%20PHP%20Manager.png)
 
-
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f517626097909955310d47059d195178c0e7f1b8/Step%203%20Register%20PHP.png)
