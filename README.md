@@ -53,6 +53,8 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/8140ed2ee82841b86fbc743d6aff35fea9aa4cb0/Step%209%20MySQL%20sever%205.5.62.png)
 
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/118c81c7c35715e39fcd3e9401f7ee871cd84af5/Step%201%20Open%20IIS.png)
+
 
 
 
