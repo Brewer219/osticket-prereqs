@@ -76,3 +76,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/29ebad5ce147192be6f7ed574303bf4c8e1b403a/Step%202%20Extract%20v1.15.8.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/153350082f198221ba206c68e41b4cb0a63fae70/Step%203%20osTicket%20v1.15.8%20inside%20of%20the%20folder.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/9a997737bea86b2d33577748a2d3c82a27f2e1bb/Step%204%20extract%20v1.15.8%20double%20file%20created.png)
