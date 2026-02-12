@@ -40,3 +40,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/fa7b99b32c417d1bf3e7add4ad822ad0ded6b64b/Install%20VC_redist.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4bcfbcd31005c0adae5ce57b62cc782c96c25b73/Step%201%20SQLsever%205.5.62.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/b9794c1c4bfc593fc510d54bfd9a02fbc70d9baa/Step%202%20SQLsever%205.5.62.png)
