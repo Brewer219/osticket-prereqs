@@ -106,3 +106,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/bc4de0c7cf9cb09e8634ef172a22806a3198f16c/Step%2017%20v1.15.8%20click.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4c4d54f12b00400ca35cdf41c80afb71c169e84c/Step%2018%20v1.15.8%20PHP%20ext%201.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/12d70e0e259d2322372f7ae33e27115607db6354/Step%2019%20v1.15.8%20PHP%20ext%202.png)
