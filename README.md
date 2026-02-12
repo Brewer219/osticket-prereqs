@@ -138,3 +138,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/d9c584fbcf3b1b1915afb32d2eccefc57c056edb/Step%2017%20ost-.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/98ddce1a5bd86b787f6bce31e6c494bb54a258c6/Step%201%20click%20on%20Hedi.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/28f6e42ce28c3f135285df1a4b197aeaaf089fe9/Step%202%20Hedi.png)
