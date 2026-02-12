@@ -124,3 +124,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/894e93283b098dff5a0412bf7bb7dc61218ad4d3/Step%2010%20ost-%20Permission%20tab.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/e4458c92cf5f87021aa8b5f89914ddc9e45d2f2d/Step%2011%20ost-%20add%20new%20permission.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4aabfe5651dbb42d4679f61b9d4c52b0701e0e98/Step%2012%20ost-.png)
