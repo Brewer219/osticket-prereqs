@@ -70,3 +70,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f0b88b4bf78e56fcc20997cf54aa76ad01ba1bf2/Step%208%20php%20binary%20clicking%20the%20START%20button.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/ddd689f333ab084c7a944a8cf7f5755d62281074/Step%209%20php%20binary%20RESTART.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/aa4f92980ce63cb4b2263a2c177437cd4515f4cb/Step%201%20Install%20osTicket%20v1.15.8.png)
