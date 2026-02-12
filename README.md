@@ -55,6 +55,6 @@
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/118c81c7c35715e39fcd3e9401f7ee871cd84af5/Step%201%20Open%20IIS.png)
 
-
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/8451322d4c9707c769a61f21646da9a22efb1b20/Step%202%20%20click%20PHP%20Manager.png)
 
 
