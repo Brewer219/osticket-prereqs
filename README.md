@@ -116,3 +116,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f108a7d41a23cf4cdaf40da97afb34c8b89fc11b/Step%205%20ost-.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/8b18aefd9263cd8cdd8cc15ac23b6fab95404f07/Step%206%20ost-.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4e778bfe48d2775e06aed6022a6311ba6cfd7e62/Step%207%20ost-%20Right%20click%20for%20properties.png)
