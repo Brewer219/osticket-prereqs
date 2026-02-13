@@ -1,3 +1,4 @@
+<img width="1356" height="723" alt="Screenshot 2026-02-13 090125" src="https://github.com/user-attachments/assets/cff76654-6920-4b03-953f-322be295d855" />
 
 
 <h1>osTicket: Installation</h1>
