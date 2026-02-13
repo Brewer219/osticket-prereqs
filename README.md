@@ -18,7 +18,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
  - Internet Information Services (IIS)
  - PHP
  - MySQL
- - osTicket
+ - Azure
 
 <h2>3. Operating Systems</h2>
 
