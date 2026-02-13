@@ -1,8 +1,10 @@
-<p img width="1356" alt="osTicket" src="images/osTicket Logo.png" />
-</p>
 
 
 <h1>osTicket: Installation</h1>
+
+<p img width="1356" alt="osTicket" src="images/osTicket Logo.png" />
+</p>
+
 <p>
 This project outlines the process of installing a self-hosted osTicket help desk system on Windows. It marks the first installment of a three-part series that will cover installation, configuration, and ticket lifecycle management. The emphasis is on deploying osTicket using modular infrastructure components instead of relying on a single bundled installer. This approach highlights the preparation and integration of the web server, scripting runtime, and database necessary for the application. Establishing this foundational setup creates a robust environment for future projects, which will delve into system configuration and practical ticket workflows.</p>
 
