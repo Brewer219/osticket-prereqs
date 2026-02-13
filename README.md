@@ -242,9 +242,6 @@ For End User to create tickets: http://localhost/osTicket/
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/9d1148f4b32dbf058f63fdb03165f1bba995eda8/Step%209%20v1.15.8%20rename%20osTicket%20inside%20wwwroot.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/3600026ad4c83c43727a3003d78fcee6977c78da/Step%2010%20v1.15.8%20click%20STOP%20button.png)
-
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/dc03ca245c3337388175d3bd947cf76de12fbed8/Step%2011%20v1.15.8%20osTicket%20RESTART%20button%20Hit.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/0fc882486861d62236f8050e2b5eb78102e57f24/Step%2012%20v1.15.8%20click%20SITES.png)
 
@@ -260,7 +257,7 @@ For End User to create tickets: http://localhost/osTicket/
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/4c4d54f12b00400ca35cdf41c80afb71c169e84c/Step%2018%20v1.15.8%20PHP%20ext%201.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/12d70e0e259d2322372f7ae33e27115607db6354/Step%2019%20v1.15.8%20PHP%20ext%202.png
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/12d70e0e259d2322372f7ae33e27115607db6354/Step%2019%20v1.15.8%20PHP%20ext%202.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/b1929f878dc9c8f68ca7c9607e6e68baab50c655/Step%2020%20v1.15.8%20PHP%20ext%203.png)
 
