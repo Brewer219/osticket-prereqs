@@ -1,3 +1,8 @@
+<p align="center">
+<img width="600" alt="osTicket Logo" src="images/osTicket Logo.png" />
+
+</p>
+
 
 <h1>osTicket: Installation</h1>
 <p>
