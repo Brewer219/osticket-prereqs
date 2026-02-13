@@ -168,3 +168,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f1ba99325f9c7181b75b908958cf53c26f7f1584/Step%202%20Admin%20osTicket%20refresh.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/70ac61493e3a32ef88549ee4157b4aeacfdb2280/Step%203%20Admin%20Staff%20Control.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/af9f528af2f1802639de7533519d8fe9ebf1abce/Step%204%20Admin%20login%20cred.png)
