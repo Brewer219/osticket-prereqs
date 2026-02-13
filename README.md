@@ -22,11 +22,11 @@ This project outlines the process of installing a self-hosted osTicket help desk
 
 <h2>3. Operating Systems</h2>
 
-- Windows 10 Enterprise 22H2
+- Windows 10/11 Enterprise 22H2
 
 <h2>4. High-Level Deployment Overview</h2>
 
-- Prepare the Windows server by enabling required web server roles and features.
+- Start the process with Windows server by enabling required web server roles and features.
 - Install and configure the PHP runtime and supporting dependencies.
 - Deploy and configure the database backend for osTicket.
 - Integrate all components and complete the osTicket web-based setup.
@@ -46,7 +46,7 @@ Create an Azure Virtual Machine with the following settings.
 > Passwords are shown in this tutorial for learning purposes only. In real-world environments, it is never good practice to store passwords in plain text, credentials should always be managed securely using a password manager.
 
 <h3>1. ENABLE IIS WEB SERVICES AND CGI</h3>
-Remote Desktop Connect(RDP) to the newly created VM, download the osTicket-Installation-Files.zip from the repo and unzip the whole folder unto your VM desktop. Search the start menu for "Turn Windows features on or off". In the pop-up find Internet Information Services and mark the checkbox. Expand World Wide Web > Expand Application Development Features, find CGI and mark the checkbox, and select OK and wait for features to be installed.
+Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Installation-Files.zip from the repo and unzip the whole folder unto your VM desktop. Search the start menu for Control Panel and click open and then "Turn Windows features on or off". Once the pop-up box comes up, find Internet Information Services and mark the checkbox. Expand World Wide Web > Expand Application Development Features, find CGI and mark the checkbox, and select OK and wait for features to be installed.
 
 <details><summary>See screenshots</summary>
 <img src="images/Step 2a.PNG" width="40%" >
@@ -57,17 +57,17 @@ Remote Desktop Connect(RDP) to the newly created VM, download the osTicket-Insta
 
 
 <h3>2. INSTALL PHP MANAGER AND PREREQUISITES</h3>
-A. In our Installation folder, find the PHP Manager Installer (PHPManagerForIIS_V1.5.0.msi) and install it.
+A. I Installation folder, found the PHP Manager Installer (PHPManagerForIIS_V1.5.0.msi) and install it.
 
 > [!NOTE]
 > osTicket is a PHP-based application, and PHP Manager allows IIS to run and manage PHP files so the application functions properly. Installing PHP and supporting runtime dependencies, ensuring version compatibility with osTicket.
 
-B. In our Installation folder, find the Rewrite Module (rewrite_amd64_en-US.msi) and install it.
+B. In my Installation folder, I located the Rewrite Module (rewrite_amd64_en-US.msi) and install it.
 
 > [!NOTE]
-> osTicket uses rewritten URLs to work correctly, and the Rewrite module allows IIS to handle those requests properly.
+> I Have an understanding osTicket uses rewritten URLs to work and operate correctly, and the Rewrite module allows IIS to handle those requests in its proper form.
 
-C. On the C: drive, create a new folder named <code>PHP</code>.  From our installation folder, unzip or extract the contents of <code>php-7.3.8-nts-Win32-VC15-x86.zip</code> into the C:\PHP folder. The extracted files contain the actual PHP runtime that IIS will use, while the PHP Manager we installed is used to configure and manage it.
+C. On the C: drive, I created a new folder named <code>PHP</code>.  From my installation folder, unzip or extract the contents of <code>php-7.3.8-nts-Win32-VC15-x86.zip</code> into the C:\PHP folder. The extracted files contain the actual PHP runtime that IIS will use, meanwhile the PHP Manager we installed is used to configure and manage it.
 
 
 D. In our installaion folder, find VC_redist.x86.exe and install. We need to install the Visual C++ Redistributable because PHP depends on these runtime libraries to run correctly on Windows.
