@@ -164,3 +164,5 @@
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/d2e7e78e54098a7add5b5f89efd2d9dd49ff6c46/Step%2016%20Hedi.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/1a1da4ce8b3ebd0721036bab0c39ff954a56e453/Step%2017%20Hedi%20osTicket%20Install%20Admin.png)
+
+![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f1ba99325f9c7181b75b908958cf53c26f7f1584/Step%202%20Admin%20osTicket%20refresh.png)
