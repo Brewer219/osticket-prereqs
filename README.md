@@ -197,7 +197,6 @@ For End User to create tickets: http://localhost/osTicket/
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/182a81ad01e492f78c4f6a68cc1145da6aaae20e/Extract%20C%3BPHP%20folder.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/445301d8c7433e0969496384e499bc259a0362db/Click%20and%20Download%20on%20VC_redist.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/fa7b99b32c417d1bf3e7add4ad822ad0ded6b64b/Install%20VC_redist.png)
 
