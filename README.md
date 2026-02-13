@@ -1,6 +1,6 @@
 <p img width="1356" alt="osTicket" src="images/osTicket Logo.png" />
 </p>
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
 
 <h1>osTicket: Installation</h1>
 <p>
