@@ -307,7 +307,7 @@ For End User to create tickets: http://localhost/osTicket/
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/12e955d6073b13795ca86ac8a5b109c21f7877f8/Step%2011%20Hedi.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/6b45ebdfcda8d7022070dd2d1ae6625abf0b4643/Step%2012%20Hedi.png)
+
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/52d48fdc321ac6febf46ea39731a88024f654923/Step%2015%20Hedi.png)
 
