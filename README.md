@@ -315,7 +315,6 @@ For End User to create tickets: http://localhost/osTicket/
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/1a1da4ce8b3ebd0721036bab0c39ff954a56e453/Step%2017%20Hedi%20osTicket%20Install%20Admin.png)
 
-![image atl](https://github.com/Brewer219/osticket-prereqs/blob/f1ba99325f9c7181b75b908958cf53c26f7f1584/Step%202%20Admin%20osTicket%20refresh.png)
 
 ![image atl](https://github.com/Brewer219/osticket-prereqs/blob/70ac61493e3a32ef88549ee4157b4aeacfdb2280/Step%203%20Admin%20Staff%20Control.png)
 
