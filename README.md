@@ -173,7 +173,7 @@ Before we select Install Now, we will need to configure our SQL and create the d
 
 Back in the installation folder, find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL. Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
 
-<img width="514" height="240" alt="Step 12 Hedi" src="https://github.com/user-attachments/assets/ba3a47ab-56b7-4044-90f8-219a2d59c31f" /><img width="612" height="368" alt="Step 13 Hedi" src="https://github.com/user-attachments/assets/529046bf-867a-4b0c-9a79-f9de6072d33f" /><img width="514" height="440" alt="Step 14 Hedi" src="https://github.com/user-attachments/assets/82430db0-3aad-483c-be42-2d085c4cd05c" /><img width="622" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/60fe0227-8bce-4451-8e0a-34e842102fb7" />
+<img width="514" height="240" alt="Step 12 Hedi" src="https://github.com/user-attachments/assets/ba3a47ab-56b7-4044-90f8-219a2d59c31f" /><img width="514" height="440" alt="Step 14 Hedi" src="https://github.com/user-attachments/assets/82430db0-3aad-483c-be42-2d085c4cd05c" /><img width="622" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/60fe0227-8bce-4451-8e0a-34e842102fb7" />
 
 
 
