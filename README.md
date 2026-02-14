@@ -44,7 +44,7 @@ Create an Azure Virtual Machine with the following settings.
 - Operating System: Windows 10 Enterprise 22H2
 - Size: 4vCPUs, 32GB Ram
 - Username: labuser
-- Password: Password123!
+- Password: osTicketPassword1!
 
 > [!NOTE]
 > Passwords are shown in this tutorial for learning purposes only. In real-world environments, it is never good practice to store passwords in plain text, credentials should always be managed securely using a password manager.
