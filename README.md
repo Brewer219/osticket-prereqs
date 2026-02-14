@@ -134,7 +134,7 @@ Notice some features are not enabled here, we'll enable them next. Back in our I
 - Enable php_imap.dll
 - Enable php_intl.dll
 - Enable php_opcache.dll
-<img width="1248" height="980" alt="Step 18 v1 15 8 PHP ext 1" src="https://github.com/user-attachments/assets/29d15207-e87d-4209-8cd1-174b6c986e3e" /><img width="1227" height="1003" alt="Step 19 v1 15 8 PHP ext 2" src="https://github.com/user-attachments/assets/90327b6f-1e7d-43c3-9ab2-a8c80f00ec05" /><img width="1285" height="1008" alt="Step 20 v1 15 8 PHP ext 3" src="https://github.com/user-attachments/assets/54f31f74-1d04-4555-a5b4-f78350646e3e" />
+<img width="1248" height="780" alt="Step 18 v1 15 8 PHP ext 1" src="https://github.com/user-attachments/assets/29d15207-e87d-4209-8cd1-174b6c986e3e" /> <img width="1227" height="803" alt="Step 19 v1 15 8 PHP ext 2" src="https://github.com/user-attachments/assets/90327b6f-1e7d-43c3-9ab2-a8c80f00ec05" /> <img width="1285" height="808" alt="Step 20 v1 15 8 PHP ext 3" src="https://github.com/user-attachments/assets/54f31f74-1d04-4555-a5b4-f78350646e3e" />
 
 
 
@@ -159,7 +159,8 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 <h3>6. INSTALL HEIDISQL AND CONFIGURE SQL</h3>
 
 Back in the web browser, we will continue the osTicket setup, select Continue >> near the bottom. 
-In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password123!</code>.
+In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
+
 <img width="1513" height="1048" alt="Step  18 ost-" src="https://github.com/user-attachments/assets/e024cb91-3a41-494f-a522-9a03eacf4a5d" /><img width="1544" height="930" alt="Step 19 ost-" src="https://github.com/user-attachments/assets/baa79079-f359-484a-ae8d-43e5b2690a62" />
 
 
