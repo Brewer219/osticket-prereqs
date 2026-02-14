@@ -111,10 +111,11 @@ MySQL serves as the database backend for osTicket, storing tickets, user informa
 
 <h3>3. REGISTER PHP WITH IIS</h3>
 Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Register New PHP Version. In the pop-up, select the three dots and browse to the <code>C:\PHP</code> folder, select the <code>php-cgi</code> file, and select OK.  We'll reload IIS by restarting the web server. On the left side under Connections, right-click the vm and select Stop, right-click vm again and select Start, minimize IIS Manager as we will come back to it.
+<img width="941" height="753" alt="Step 1 Open IIS" src="https://github.com/user-attachments/assets/2447e8f0-7160-423d-8f11-9303bd6f6d19" /><img width="1229" height="691" alt="Step 3 Register PHP" src="https://github.com/user-attachments/assets/92c901ae-1f4f-4891-b5aa-8fd3cc0a68de" />
+<img width="979" height="647" alt="Step 5 complete php cgi binary" src="https://github.com/user-attachments/assets/b4cb6ecf-3dc6-4b4a-904b-f820bf7bc790" />
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 4a.PNG" width="50%" >
-</details> 
+
+
 
 <h3>5. ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h3>
 In our installation folder, find <code>osTicket-v1.15.8.zip</code>, right-click and select Extract All, and then Extract. In the extracted folder, find and copy the upload folder to destination <code>C:inetpub\wwwroot</code>. Rename the upload folder to "osTicket" (no space, and uppercase T).
