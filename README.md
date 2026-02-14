@@ -153,11 +153,13 @@ Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTi
 
 
 
-And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK.
+And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK. <img width="552" height="331" alt="Step 10 ost- Permission tab" src="https://github.com/user-attachments/assets/49579279-0a31-4a57-a0c3-4c6ffed0c10c" /> <img width="440" height="487" alt="Step 11 ost- add new permission" src="https://github.com/user-attachments/assets/b7fda07b-63db-4fd0-93d7-1c2541c5f21d" /><img width="337" height="490" alt="Step 13 ost-" src="https://github.com/user-attachments/assets/c157ff08-85da-40f9-8354-e027cb7b1a4d" /><img width="309" height="453" alt="Step 15 ost-" src="https://github.com/user-attachments/assets/614cf907-2d08-440c-ab4d-f42aaf44e110" />
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 5g.PNG" width="33%" > <img src="images/Step 5h.PNG" width="33%" >
-</details> 
+
+
+
+
+
 
 > [!NOTE]
 > Assigning Everyone permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this lab to avoid installation issues; permissions should be restricted after setup in real environments.
