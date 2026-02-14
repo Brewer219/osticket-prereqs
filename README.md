@@ -124,11 +124,10 @@ In our installation folder, find <code>osTicket-v1.15.8.zip</code>, right-click 
 <img src="images/Step 5a.PNG" width="50%" >
 </details> 
 
-Reload IIS by restarting the web server again, stop and start instructions from Step 3 and minimize IIS Manager. Now in your web browser, navigate to "http://localhost/osticket/setup/".
+Reload IIS by restarting the web server again, stop and start instructions from Step 3 and minimize IIS Manager. Now in your web browser, navigate to "http://localhost/osticket/setup/".<img width="1074" height="444" alt="Step 11 v1 15 8 osTicket RESTART button Hit" src="https://github.com/user-attachments/assets/9d5a7b6b-d8ad-49b5-8a40-75967f25e734" />
+ 
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 5b.PNG" width="50%" >
-</details> 
+
 
 Notice some features are not enabled here, we'll enable them next. Back in our IIS Manager, expand Site, expand Default Web Site and select folder osTicket.  Double-click PHP Manager, and select Enable or Disable an extension. 
 
