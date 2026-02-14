@@ -159,7 +159,9 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 <h3>6. INSTALL HEIDISQL AND CONFIGURE SQL</h3>
 
 Back in the web browser, we will continue the osTicket setup, select Continue >> near the bottom. 
-In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password123!</code>. 
+In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password123!</code>.
+<img width="1513" height="1048" alt="Step  18 ost-" src="https://github.com/user-attachments/assets/e024cb91-3a41-494f-a522-9a03eacf4a5d" /><img width="1544" height="930" alt="Step 19 ost-" src="https://github.com/user-attachments/assets/baa79079-f359-484a-ae8d-43e5b2690a62" />
+
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
 
