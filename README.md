@@ -61,23 +61,49 @@ Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Ins
 
 
 <h3>2. INSTALL PHP MANAGER AND PREREQUISITES</h3>
-A. I Installation folder, found the PHP Manager Installer (PHPManagerForIIS_V1.5.0.msi) and install it.
+A. Install PHP Manager for IIS
 
-> [!NOTE]
-> osTicket is a PHP-based application, and PHP Manager allows IIS to run and manage PHP files so the application functions properly. Installing PHP and supporting runtime dependencies, ensuring version compatibility with osTicket.
+Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer to complete the setup.
 
-B. In my Installation folder, I located the Rewrite Module (rewrite_amd64_en-US.msi) and install it.
+>![Note]
+>osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket.
 
-> [!NOTE]
-> I Have an understanding osTicket uses rewritten URLs to work and operate correctly, and the Rewrite module allows IIS to handle those requests in its proper form.
+B. Install IIS URL Rewrite Module
+>From the installation folder, locate rewrite_amd64_en-US.msi and proceed with the installation.
+>![Note]
+>osTicket relies on URL rewriting for proper navigation and functionality. The IIS URL Rewrite Module allows the server to correctly interpret and process rewritten URLs required by the application.
 
-C. On the C: drive, I created a new folder named <code>PHP</code>.  From my installation folder, unzip or extract the contents of <code>php-7.3.8-nts-Win32-VC15-x86.zip</code> into the C:\PHP folder. The extracted files contain the actual PHP runtime that IIS will use, meanwhile the PHP Manager we installed is used to configure and manage it.
+C. Install the PHP Runtime
+Create a new folder on the C:\ drive named PHP.
+From the installation folder, extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip into the newly created C:\PHP directory.
+The extracted files contain the actual PHP runtime engine that IIS will execute. PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
+D. Install Visual C++ Redistributable
+Locate VC_redist.x86.exe in the installation folder and run the installer.
+The Microsoft Visual C++ Redistributable package is required because PHP depends on these runtime libraries to function properly on Windows systems.
 
-D. In our installaion folder, find VC_redist.x86.exe and install. We need to install the Visual C++ Redistributable because PHP depends on these runtime libraries to run correctly on Windows.
+E. Install and Configure MySQL Server
+Locate mysql-5.5.62-win32.msi in the installation folder and begin the installation process.
+Select Typical Installation
+Click Install
+After installation completes, launch the MySQL Configuration Wizard
 
+Within the wizard:
 
-E. In our installation folder, find <code>mysql-5.5.62-win32.msi</code>, and install it. MySQL is installed to provide the database where osTicket stores all tickets, users, and system data. Select Typical > Install, and then Launch Configuration Wizard after installation. Choose Standard Configuration, then select Next until reaching the Modify Security Settings screen. Enter <code>root</code> for both the username and password fields, then continue by selecting Next and finally Execute and Finish.
+Choose Standard Configuration
+
+Continue selecting Next until you reach the Modify Security Settings screen
+
+Set both the username and password to:
+root
+
+Proceed by selecting Next
+
+Click Execute
+
+Finish the configuration
+
+MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
 <details open><summary>See screenshots</summary>
 <img src="images/Step 3 Ea.PNG" width="40%" > <img src="images/Step 3 Eb.PNG" width="40%" >
