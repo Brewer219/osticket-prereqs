@@ -105,9 +105,9 @@ Finish the configuration
 
 MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
-<details open><summary>See screenshots</summary>
-<img src="images/Step 3 Ea.PNG" width="40%" > <img src="images/Step 3 Eb.PNG" width="40%" >
-</details> 
+<img width="609" height="453" alt="Step 15 ost-" src="https://github.com/user-attachments/assets/ce28f2bc-02b0-49ac-85d0-a47f9941e843" />  <img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/9abbacdd-28da-471c-ad49-fe8a313af72c" />
+
+
 
 <h3>3. REGISTER PHP WITH IIS</h3>
 Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Register New PHP Version. In the pop-up, select the three dots and browse to the <code>C:\PHP</code> folder, select the <code>php-cgi</code> file, and select OK.  We'll reload IIS by restarting the web server. On the left side under Connections, right-click the vm and select Stop, right-click vm again and select Start, minimize IIS Manager as we will come back to it.
