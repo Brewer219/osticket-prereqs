@@ -192,9 +192,9 @@ Congratulations, refer to the screenshots to ensure functionality!
 For Admin/Analyst/Agent Login: http://localhost/osTicket/scp/login.php
 For End User to create tickets: http://localhost/osTicket/
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 7a.PNG" width="30%" > <img src="images/Step 7b.PNG" width="30%" > <img src="images/Step 7c.PNG" width="30%" >
-</details> 
+<img width="919" height="705" alt="Step 3 Admin Staff Control" src="https://github.com/user-attachments/assets/3fa99120-58ea-4ca5-87a8-ee401c1e9279" /> <img width="1322" height="689" alt="For end user to put in support ticket part 4" src="https://github.com/user-attachments/assets/438391d6-4033-4658-8eae-676432cedea1" />
+
+
 
 
 
