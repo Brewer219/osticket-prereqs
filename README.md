@@ -182,6 +182,7 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - MySQL Username: root
 - MySQL Password: root
 - **Select Install Now**
+- 
 <img width="1085" height="733" alt="Step 7 Hedi" src="https://github.com/user-attachments/assets/26beb034-6e29-4cf0-8028-af55a6b959f0" /><img width="1067" height="819" alt="Step 8 Hedi" src="https://github.com/user-attachments/assets/729d9909-1e8b-4225-9a2b-d378112fb02a" />
 
 
@@ -191,6 +192,8 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 Congratulations, refer to the screenshots to ensure functionality!
 For Admin/Analyst/Agent Login: http://localhost/osTicket/scp/login.php
 For End User to create tickets: http://localhost/osTicket/
+
+
 
 <img width="919" height="705" alt="Step 3 Admin Staff Control" src="https://github.com/user-attachments/assets/3fa99120-58ea-4ca5-87a8-ee401c1e9279" /> <img width="1322" height="689" alt="For end user to put in support ticket part 4" src="https://github.com/user-attachments/assets/438391d6-4033-4658-8eae-676432cedea1" />
 
