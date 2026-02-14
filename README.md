@@ -134,10 +134,10 @@ Notice some features are not enabled here, we'll enable them next. Back in our I
 - Enable php_imap.dll
 - Enable php_intl.dll
 - Enable php_opcache.dll
+<img width="1248" height="980" alt="Step 18 v1 15 8 PHP ext 1" src="https://github.com/user-attachments/assets/29d15207-e87d-4209-8cd1-174b6c986e3e" /><img width="1227" height="1003" alt="Step 19 v1 15 8 PHP ext 2" src="https://github.com/user-attachments/assets/90327b6f-1e7d-43c3-9ab2-a8c80f00ec05" /><img width="1285" height="1008" alt="Step 20 v1 15 8 PHP ext 3" src="https://github.com/user-attachments/assets/54f31f74-1d04-4555-a5b4-f78350646e3e" />
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 5c.PNG" width="33%" > <img src="images/Step 5d.PNG" width="33%" ><img src="images/Step 5e.PNG" width="33%" >
-</details> 
+
+
 
 Refresh the osTicket site in the web browser and notice the changes.
 Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTicket\include</code> and find file <code>ost-sampleconfig.php</code>. Rename this file to <code>ost-config.php</code>. Now right-click file and select Properties. In Security tab, go to Advanced. Select Disable inhertiance > Remove all inhertied permissions. We are stripping away all current permissions here.
