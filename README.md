@@ -119,10 +119,12 @@ Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Reg
 
 <h3>5. ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h3>
 In our installation folder, find <code>osTicket-v1.15.8.zip</code>, right-click and select Extract All, and then Extract. In the extracted folder, find and copy the upload folder to destination <code>C:inetpub\wwwroot</code>. Rename the upload folder to "osTicket" (no space, and uppercase T).
+<img width="1000" height="641" alt="Step 1 Install osTicket v1 15 8" src="https://github.com/user-attachments/assets/b623b14e-0e4e-4ae6-8559-ebb017679c1c" /><img width="1058" height="470" alt="Step 2 Extract v1 15 8" src="https://github.com/user-attachments/assets/27aab5f9-54bf-42db-aa79-c7a8b64caee2" /><img width="1002" height="975" alt="Step 3 osTicket v1 15 8 inside of the folder" src="https://github.com/user-attachments/assets/3748397f-ff8f-43fb-ba3f-fbf48e56b1e8" /><img width="1033" height="629" alt="Step 6 v1 15 8 osTicket" src="https://github.com/user-attachments/assets/044d53dd-f215-4888-b03d-96353d229ea7" /><img width="1051" height="428" alt="Step 9 v1 15 8 rename osTicket inside wwwroot" src="https://github.com/user-attachments/assets/e0700260-70c4-4e21-9d13-2ad0956c16f7" />
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 5a.PNG" width="50%" >
-</details> 
+
+
+
+
 
 Reload IIS by restarting the web server again, stop and start instructions from Step 3 and minimize IIS Manager. Now in your web browser, navigate to "http://localhost/osticket/setup/".<img width="1074" height="444" alt="Step 11 v1 15 8 osTicket RESTART button Hit" src="https://github.com/user-attachments/assets/9d5a7b6b-d8ad-49b5-8a40-75967f25e734" />
  
