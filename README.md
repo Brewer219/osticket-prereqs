@@ -112,7 +112,7 @@ MySQL serves as the database backend for osTicket, storing tickets, user informa
 
 <h3>3. REGISTER PHP WITH IIS</h3>
 Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Register New PHP Version. In the pop-up, select the three dots and browse to the <code>C:\PHP</code> folder, select the <code>php-cgi</code> file, and select OK.  We'll reload IIS by restarting the web server. On the left side under Connections, right-click the vm and select Stop, right-click vm again and select Start, minimize IIS Manager as we will come back to it.
-<img width="941" height="753" alt="Step 1 Open IIS" src="https://github.com/user-attachments/assets/2447e8f0-7160-423d-8f11-9303bd6f6d19" /><img width="1229" height="691" alt="Step 3 Register PHP" src="https://github.com/user-attachments/assets/92c901ae-1f4f-4891-b5aa-8fd3cc0a68de" />
+<img width="341" height="353" alt="Step 1 Open IIS" src="https://github.com/user-attachments/assets/2447e8f0-7160-423d-8f11-9303bd6f6d19" /><img width="329" height="391" alt="Step 3 Register PHP" src="https://github.com/user-attachments/assets/92c901ae-1f4f-4891-b5aa-8fd3cc0a68de" />
 <img width="979" height="647" alt="Step 5 complete php cgi binary" src="https://github.com/user-attachments/assets/b4cb6ecf-3dc6-4b4a-904b-f820bf7bc790" />
 
 
@@ -120,7 +120,7 @@ Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Reg
 
 <h3>5. ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h3>
 In our installation folder, find <code>osTicket-v1.15.8.zip</code>, right-click and select Extract All, and then Extract. In the extracted folder, find and copy the upload folder to destination <code>C:inetpub\wwwroot</code>. Rename the upload folder to "osTicket" (no space, and uppercase T).
-<img width="1000" height="641" alt="Step 1 Install osTicket v1 15 8" src="https://github.com/user-attachments/assets/b623b14e-0e4e-4ae6-8559-ebb017679c1c" /><img width="358" height="470" alt="Step 2 Extract v1 15 8" src="https://github.com/user-attachments/assets/27aab5f9-54bf-42db-aa79-c7a8b64caee2" /><img width="302" height="475" alt="Step 3 osTicket v1 15 8 inside of the folder" src="https://github.com/user-attachments/assets/3748397f-ff8f-43fb-ba3f-fbf48e56b1e8" /><img width="333" height="629" alt="Step 6 v1 15 8 osTicket" src="https://github.com/user-attachments/assets/044d53dd-f215-4888-b03d-96353d229ea7" /><img width="451" height="428" alt="Step 9 v1 15 8 rename osTicket inside wwwroot" src="https://github.com/user-attachments/assets/e0700260-70c4-4e21-9d13-2ad0956c16f7" />
+<img width="400" height="341" alt="Step 1 Install osTicket v1 15 8" src="https://github.com/user-attachments/assets/b623b14e-0e4e-4ae6-8559-ebb017679c1c" /><img width="358" height="470" alt="Step 2 Extract v1 15 8" src="https://github.com/user-attachments/assets/27aab5f9-54bf-42db-aa79-c7a8b64caee2" /><img width="302" height="475" alt="Step 3 osTicket v1 15 8 inside of the folder" src="https://github.com/user-attachments/assets/3748397f-ff8f-43fb-ba3f-fbf48e56b1e8" /><img width="333" height="629" alt="Step 6 v1 15 8 osTicket" src="https://github.com/user-attachments/assets/044d53dd-f215-4888-b03d-96353d229ea7" /><img width="451" height="428" alt="Step 9 v1 15 8 rename osTicket inside wwwroot" src="https://github.com/user-attachments/assets/e0700260-70c4-4e21-9d13-2ad0956c16f7" />
 
 
 
@@ -138,7 +138,7 @@ Notice some features are not enabled here, we'll enable them next. Back in our I
 - Enable php_intl.dll
 - Enable php_opcache.dll
   
-<img width="1228" height="680" alt="Step 18 v1 15 8 PHP ext 1" src="https://github.com/user-attachments/assets/29d15207-e87d-4209-8cd1-174b6c986e3e" /> <img width="1228" height="685" alt="Step 19 v1 15 8 PHP ext 2" src="https://github.com/user-attachments/assets/90327b6f-1e7d-43c3-9ab2-a8c80f00ec05" /> <img width="1228" height="685" alt="Step 20 v1 15 8 PHP ext 3" src="https://github.com/user-attachments/assets/54f31f74-1d04-4555-a5b4-f78350646e3e" />
+<img width="328" height="380" alt="Step 18 v1 15 8 PHP ext 1" src="https://github.com/user-attachments/assets/29d15207-e87d-4209-8cd1-174b6c986e3e" /> <img width="328" height="685" alt="Step 19 v1 15 8 PHP ext 2" src="https://github.com/user-attachments/assets/90327b6f-1e7d-43c3-9ab2-a8c80f00ec05" /> <img width="328" height="385" alt="Step 20 v1 15 8 PHP ext 3" src="https://github.com/user-attachments/assets/54f31f74-1d04-4555-a5b4-f78350646e3e" />
 
 
 
@@ -170,7 +170,7 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 Back in the web browser, we will continue the osTicket setup, select Continue >> near the bottom. 
 In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
 
-<img width="713" height="548" alt="Step  18 ost-" src="https://github.com/user-attachments/assets/e024cb91-3a41-494f-a522-9a03eacf4a5d" /><img width="1544" height="930" alt="Step 19 ost-" src="https://github.com/user-attachments/assets/baa79079-f359-484a-ae8d-43e5b2690a62" />
+<img width="313" height="348" alt="Step  18 ost-" src="https://github.com/user-attachments/assets/e024cb91-3a41-494f-a522-9a03eacf4a5d" /><img width="444" height="330" alt="Step 19 ost-" src="https://github.com/user-attachments/assets/baa79079-f359-484a-ae8d-43e5b2690a62" />
 
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
@@ -180,7 +180,7 @@ Before we select Install Now, we will need to configure our SQL and create the d
 
 Back in the installation folder, find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL. Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
 
-<img width="514" height="240" alt="Step 12 Hedi" src="https://github.com/user-attachments/assets/ba3a47ab-56b7-4044-90f8-219a2d59c31f" /><img width="622" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/60fe0227-8bce-4451-8e0a-34e842102fb7" />
+<img width="314" height="240" alt="Step 12 Hedi" src="https://github.com/user-attachments/assets/ba3a47ab-56b7-4044-90f8-219a2d59c31f" /><img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/60fe0227-8bce-4451-8e0a-34e842102fb7" />
 
 
 
@@ -191,8 +191,8 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - MySQL Username: root
 - MySQL Password: root
 - **Select Install Now**
-- 
-<img width="1085" height="733" alt="Step 7 Hedi" src="https://github.com/user-attachments/assets/26beb034-6e29-4cf0-8028-af55a6b959f0" /><img width="1067" height="819" alt="Step 8 Hedi" src="https://github.com/user-attachments/assets/729d9909-1e8b-4225-9a2b-d378112fb02a" />
+  
+<img width="385" height="333" alt="Step 7 Hedi" src="https://github.com/user-attachments/assets/26beb034-6e29-4cf0-8028-af55a6b959f0" /><img width="367" height="319" alt="Step 8 Hedi" src="https://github.com/user-attachments/assets/729d9909-1e8b-4225-9a2b-d378112fb02a" />
 
 
 
