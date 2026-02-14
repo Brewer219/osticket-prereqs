@@ -144,10 +144,13 @@ Notice some features are not enabled here, we'll enable them next. Back in our I
 
 Refresh the osTicket site in the web browser and notice the changes.
 Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTicket\include</code> and find file <code>ost-sampleconfig.php</code>. Rename this file to <code>ost-config.php</code>. Now right-click file and select Properties. In Security tab, go to Advanced. Select Disable inhertiance > Remove all inhertied permissions. We are stripping away all current permissions here.
+<img width="387" height="361" alt="CopyPaste PHP folder inside C;" src="https://github.com/user-attachments/assets/518c05fa-1237-4811-acda-203b42666127" /><img width="364" height="435" alt="Step 8 v1 15 8 finishing with copy upload folder into wwwroot" src="https://github.com/user-attachments/assets/0403b5e2-e249-41af-a2ef-14ab46bfb8e2" /><img width="351" height="328" alt="Step 9 v1 15 8 rename osTicket inside wwwroot" src="https://github.com/user-attachments/assets/2505834b-4796-47f7-b9d8-496891f576a3" /><img width="493" height="252" alt="Step 4 get inside include folder" src="https://github.com/user-attachments/assets/7f567f51-6b60-47b8-98e1-481b75d3034b" /><img width="328" height="344" alt="ost-config php inside include part 1" src="https://github.com/user-attachments/assets/5c4a6bf0-9446-45af-8e65-6c2843364062" />
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 5f.PNG" width="50%" >
-</details> 
+
+
+
+
+
 
 
 And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK.
