@@ -13,8 +13,8 @@ This project outlines the process of installing a self-hosted osTicket help desk
 <h2>2. Technologies Used</h2>
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=azure,windows,php,mysql" />&nbsp;&nbsp;<img src="images/osticket-icon-dark.png" width="48"></p>
-
+<img src="https://skillicons.dev/icons?i=azure,windows,php,mysql" />&nbsp;&nbsp;
+ 
  - Internet Information Services (IIS)
  - PHP
  - MySQL
