@@ -105,7 +105,8 @@ Finish the configuration
 
 MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
-<img width="609" height="453" alt="Step 15 ost-" src="https://github.com/user-attachments/assets/ce28f2bc-02b0-49ac-85d0-a47f9941e843" />  <img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/9abbacdd-28da-471c-ad49-fe8a313af72c" />
+ <img width="414" height="424" alt="Step 5 MySQL server 5 5 62" src="https://github.com/user-attachments/assets/7f022776-cafe-4569-897e-521c9b347239" />
+<img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/9abbacdd-28da-471c-ad49-fe8a313af72c" />
 
 
 
