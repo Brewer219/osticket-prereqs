@@ -20,7 +20,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
  - MySQL
  - Azure
 
-<h2>3. Operating Systems</h2>
+<h2> Operating Systems</h2>
 
 - Windows 10/11 Enterprise 22H2
 
@@ -35,22 +35,25 @@ This project outlines the process of installing a self-hosted osTicket help desk
 - Integrate all components and complete the web-based installation, finalizing the osTicket setup and validating system functionality.
   
 
-<h2>5. Deployment & Installation Steps</h2>
+<h2> Deployment & Installation Steps</h2>
 Download Installation files: https://drive.google.com/file/d/1D4v2vQkaHXbWNHPZVXbRT2oAi1U71HpK/view?usp=drive_link
 <h3>1. CREATE VM IN AZURE</h3>
 Create an Azure Virtual Machine with the following settings.
 
-- Name: vm-osticket
-- Operating System: Windows 10 Enterprise 22H2
-- Size: 4vCPUs, 32GB Ram
-- Username: labuser
-- Password: osTicketPassword1!
+1. Name: vm-osticket
+2. Operating System: Windows 10 Enterprise 22H2
+3. Size: 4vCPUs, 32GB Ram
+4. Username: labuser
+5. Password: osTicketPassword1!
 
 > [!NOTE]
 > Passwords are shown in this tutorial for learning purposes only. In real-world environments, it is never good practice to store passwords in plain text, credentials should always be managed securely using a password manager.
 
-<h3>1. ENABLE IIS WEB SERVICES AND CGI</h3>
-Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Installation-Files.zip from the repo and unzip the whole folder unto your VM desktop. Search the start menu for Control Panel and click open and then "Turn Windows features on or off". Once the pop-up box comes up, find Internet Information Services and mark the checkbox. Expand World Wide Web > Expand Application Development Features, find CGI and mark the checkbox, and select OK and wait for features to be installed.
+<h3> ENABLE IIS WEB SERVICES AND CGI</h3>
+1.Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Installation-Files.zip from the repo and unzip the whole folder unto your VM desktop. 
+2.Search the start menu for Control Panel and click open and then "Turn Windows features on or off".
+3.Once the pop-up box comes up, find Internet Information Services and mark the checkbox. 
+4.Expand World Wide Web > Expand Application Development Features, find CGI and mark the checkbox, and select OK and wait for features to be installed.
 
 <details><summary>See screenshots</summary>
 <img src="images/Step 2a.PNG" width="40%" >
@@ -60,33 +63,33 @@ Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Ins
 > Internet Information Services (IIS) is the web server that will host the osTicket application.
 
 
-<h3>2. INSTALL PHP MANAGER AND PREREQUISITES</h3>
-A. Install PHP Manager for IIS
-
-Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer to complete the setup.
+<h3> INSTALL PHP MANAGER AND PREREQUISITES</h3>
+1. Install PHP Manager for IIS
+2. Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer to complete the setup.
 
 >![Note]
 >osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket.
 
-B. Install IIS URL Rewrite Module
->From the installation folder, locate rewrite_amd64_en-US.msi and proceed with the installation.
+3. Install IIS URL Rewrite Module
+4. From the installation folder, locate rewrite_amd64_en-US.msi and proceed with the installation.
 >![Note]
 >osTicket relies on URL rewriting for proper navigation and functionality. The IIS URL Rewrite Module allows the server to correctly interpret and process rewritten URLs required by the application.
 
-C. Install the PHP Runtime
-Create a new folder on the C:\ drive named PHP.
-From the installation folder, extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip into the newly created C:\PHP directory.
-The extracted files contain the actual PHP runtime engine that IIS will execute. PHP Manager, installed earlier, is used to configure and manage this runtime environment.
+5. Install the PHP Runtime
+6. Create a new folder on the C:\ drive named PHP.
+7. From the installation folder, extract the contents of php-7.3.8-nts-Win32-VC15-x86.zip into the newly created C:\PHP directory.
+8. The extracted files contain the actual PHP runtime engine that IIS will execute.
+9. PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
-D. Install Visual C++ Redistributable
-Locate VC_redist.x86.exe in the installation folder and run the installer.
-The Microsoft Visual C++ Redistributable package is required because PHP depends on these runtime libraries to function properly on Windows systems.
+10. Install Visual C++ Redistributable
+11. Locate VC_redist.x86.exe in the installation folder and run the installer.
+12. The Microsoft Visual C++ Redistributable package is required because PHP depends on these runtime libraries to function properly on Windows systems.
 
-E. Install and Configure MySQL Server
-Locate mysql-5.5.62-win32.msi in the installation folder and begin the installation process.
-Select Typical Installation
-Click Install
-After installation completes, launch the MySQL Configuration Wizard
+13. Install and Configure MySQL Server
+14. Locate mysql-5.5.62-win32.msi in the installation folder and begin the installation process.
+15. Select Typical Installation
+16. Click Install
+17. After installation completes, launch the MySQL Configuration Wizard
 
 Within the wizard:
 
@@ -110,7 +113,7 @@ MySQL serves as the database backend for osTicket, storing tickets, user informa
 
 
 
-<h3>3. REGISTER PHP WITH IIS</h3>
+<h3> REGISTER PHP WITH IIS</h3>
 Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Register New PHP Version. In the pop-up, select the three dots and browse to the <code>C:\PHP</code> folder, select the <code>php-cgi</code> file, and select OK.  We'll reload IIS by restarting the web server. On the left side under Connections, right-click the vm and select Stop, right-click vm again and select Start, minimize IIS Manager as we will come back to it.
 <img width="341" height="353" alt="Step 1 Open IIS" src="https://github.com/user-attachments/assets/2447e8f0-7160-423d-8f11-9303bd6f6d19" /><img width="329" height="391" alt="Step 3 Register PHP" src="https://github.com/user-attachments/assets/92c901ae-1f4f-4891-b5aa-8fd3cc0a68de" />
 <img width="979" height="647" alt="Step 5 complete php cgi binary" src="https://github.com/user-attachments/assets/b4cb6ecf-3dc6-4b4a-904b-f820bf7bc790" />
@@ -118,7 +121,7 @@ Search the start menu for "IIS", right-click and <b>Run as Admin</b>. Select Reg
 
 
 
-<h3>5. ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h3>
+<h3> ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h3>
 In our installation folder, find <code>osTicket-v1.15.8.zip</code>, right-click and select Extract All, and then Extract. In the extracted folder, find and copy the upload folder to destination <code>C:inetpub\wwwroot</code>. Rename the upload folder to "osTicket" (no space, and uppercase T).
 <img width="400" height="341" alt="Step 1 Install osTicket v1 15 8" src="https://github.com/user-attachments/assets/b623b14e-0e4e-4ae6-8559-ebb017679c1c" /><img width="358" height="470" alt="Step 2 Extract v1 15 8" src="https://github.com/user-attachments/assets/27aab5f9-54bf-42db-aa79-c7a8b64caee2" /><img width="302" height="475" alt="Step 3 osTicket v1 15 8 inside of the folder" src="https://github.com/user-attachments/assets/3748397f-ff8f-43fb-ba3f-fbf48e56b1e8" /><img width="333" height="629" alt="Step 6 v1 15 8 osTicket" src="https://github.com/user-attachments/assets/044d53dd-f215-4888-b03d-96353d229ea7" /><img width="451" height="428" alt="Step 9 v1 15 8 rename osTicket inside wwwroot" src="https://github.com/user-attachments/assets/e0700260-70c4-4e21-9d13-2ad0956c16f7" />
 
@@ -165,7 +168,7 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 > [!NOTE]
 > Assigning Everyone permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this lab to avoid installation issues; permissions should be restricted after setup in real environments.
 
-<h3>6. INSTALL HEIDISQL AND CONFIGURE SQL</h3>
+<h3> INSTALL HEIDISQL AND CONFIGURE SQL</h3>
 
 Back in the web browser, we will continue the osTicket setup, select Continue >> near the bottom. 
 In System Settings, enter the help desk name and default email. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
@@ -197,7 +200,7 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 
 
 
-<h3>7. VERIFY INSTALLTION AND FUNCTIONAILTY</h3>
+<h3> VERIFY INSTALLTION AND FUNCTIONAILTY</h3>
 Congratulations, refer to the screenshots to ensure functionality!
 For Admin/Analyst/Agent Login: http://localhost/osTicket/scp/login.php
 For End User to create tickets: http://localhost/osTicket/
