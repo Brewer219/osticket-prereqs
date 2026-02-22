@@ -26,13 +26,13 @@ This project outlines the process of installing a self-hosted osTicket help desk
 
 <h2> High-Level Deployment Overview</h2>
 
-- Configure the Windows Server environment by installing and enabling the required Web Server (IIS) roles and supporting features.
+1. Configure the Windows Server environment by installing and enabling the required Web Server (IIS) roles and supporting features.
 
-- Install and configure the PHP runtime along with all necessary extensions and dependencies to ensure compatibility with osTicket.
+2. Install and configure the PHP runtime along with all necessary extensions and dependencies to ensure compatibility with osTicket.
 
-- Deploy and configure the database server (MySQL or MariaDB) to serve as the backend for storing osTicket data.
-
-- Integrate all components and complete the web-based installation, finalizing the osTicket setup and validating system functionality.
+3. Deploy and configure the database server (MySQL or MariaDB) to serve as the backend for storing osTicket data.
+   
+4. Integrate all components and complete the web-based installation, finalizing the osTicket setup and validating system functionality.
   
 
 <h2> Deployment & Installation Steps</h2>
