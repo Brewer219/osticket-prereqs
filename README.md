@@ -36,18 +36,20 @@ This project outlines the process of installing a self-hosted osTicket help desk
   
 
 <h2> Deployment & Installation Steps</h2>
-Download Installation files: https://drive.google.com/file/d/1D4v2vQkaHXbWNHPZVXbRT2oAi1U71HpK/view?usp=drive_link
-<h3> CREATE VM IN AZURE</h3>
-Create an Azure Virtual Machine with the following settings.
 
-1. Name: vm-osticket
-2. Operating System: Windows 10 Enterprise 22H2
-3. Size: 4vCPUs, 32GB Ram
-4. Username: labuser
-5. Password: osTicketPassword1!
+<h3> Steps IN CREATING Virtual Machine IN AZURE</h3>
+Create an Azure Virtual Machine with the following settings.
+1. Create an Resource Group in Azure
+2. Then Create an Virtual Network with an Default IPv4
+3. Search the Virtual Machine and click on that
+4. Give Name: osticket-vm
+4. Operating System: Windows 11 Pro
+5. Size: 4vCPUs, 32GB Ram
+6. Username: labuser
+7. Password: osTicketPassword1!
 
 > [!NOTE]
-> Passwords are shown in this tutorial for learning purposes only. In real-world environments, it is never good practice to store passwords in plain text, credentials should always be managed securely using a password manager.
+>  credentials should always be managed securely using a password manager.
 
 <h3> ENABLE IIS WEB SERVICES AND CGI</h3>
 1.Use Remote Desktop Connect(RDP) to the new created VM, download the osTicket-Installation-Files.zip from the repo and unzip the whole folder unto your VM desktop. 
@@ -55,9 +57,7 @@ Create an Azure Virtual Machine with the following settings.
 3.Once the pop-up box comes up, find Internet Information Services and mark the checkbox. 
 4.Expand World Wide Web > Expand Application Development Features, find CGI and mark the checkbox, and select OK and wait for features to be installed.
 
-<details><summary>See screenshots</summary>
-<img src="images/Step 2a.PNG" width="40%" >
-</details> 
+
 
 > [!NOTE]
 > Internet Information Services (IIS) is the web server that will host the osTicket application.
