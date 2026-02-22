@@ -10,7 +10,7 @@
 <p>
 This project outlines the process of installing a self-hosted osTicket help desk system on Windows. It marks the first installment of a three-part series that will cover installation, configuration, and ticket lifecycle management. The emphasis is on deploying osTicket using modular infrastructure components instead of relying on a single bundled installer. This approach highlights the preparation and integration of the web server, scripting runtime, and database necessary for the application. Establishing this foundational setup creates a robust environment for future projects, which will delve into system configuration and practical ticket workflows.</p>
 
-<h2>2. Technologies Used</h2>
+<h2> Technologies Used</h2>
 
 <p align="left">
 <img src="https://skillicons.dev/icons?i=azure,windows,php,mysql" />&nbsp;&nbsp;
@@ -24,7 +24,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
 
 - Windows 10/11 Enterprise 22H2
 
-<h2>4. High-Level Deployment Overview</h2>
+<h2> High-Level Deployment Overview</h2>
 
 - Configure the Windows Server environment by installing and enabling the required Web Server (IIS) roles and supporting features.
 
@@ -37,7 +37,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
 
 <h2> Deployment & Installation Steps</h2>
 Download Installation files: https://drive.google.com/file/d/1D4v2vQkaHXbWNHPZVXbRT2oAi1U71HpK/view?usp=drive_link
-<h3>1. CREATE VM IN AZURE</h3>
+<h3> CREATE VM IN AZURE</h3>
 Create an Azure Virtual Machine with the following settings.
 
 1. Name: vm-osticket
