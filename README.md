@@ -175,6 +175,15 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - Complete Installation: "Select Install Now" button
   
 
+<img width="341" height="464" alt="Step 17 Hedi osTicket Install Admin" src="https://github.com/user-attachments/assets/3710b3b0-e332-45c0-9342-e88a132be198" />
+
+
+
+
+
+
+
+
 
 
 
