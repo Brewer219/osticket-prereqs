@@ -48,7 +48,7 @@ Create an Azure Virtual Machine with the following settings.
 - Username: labuser
 - Password: osTicketPassword1!
 
-> [!Important To NOTE]: Credentials need to manage securely using a password manager.
+> ![Important To NOTE]: Credentials need to manage securely using a password manager.
 
 
 <h3> ENABLE IIS WEB SERVICES AND CGI</h3>
