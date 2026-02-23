@@ -184,6 +184,8 @@ Congratulations, refer to the screenshots to ensure functionality!
 - Admin Login: http://localhost/osTicket/scp/login.php
 - For End User to create tickets: http://localhost/osTicket/
 
+  
+
 
 
 
