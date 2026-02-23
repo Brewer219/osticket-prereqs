@@ -156,6 +156,11 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 
 
 
+
+
+
+
+
 <h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
 
