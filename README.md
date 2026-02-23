@@ -64,17 +64,7 @@ Create an Azure Virtual Machine with the following settings.
 <h4> INSTALL PHP MANAGER AND PREREQUISITES</h4>
 1. Install PHP Manager: For IIS Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer.
 >![Note]
->osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket. 
-
-
-
-
-
-
-
-
-
-
+>osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. 
 
 
 
@@ -99,7 +89,7 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-
+<p>This step also helps manage PHP configuration settings and maintain version compatibility with osTicket.</p> 
 
 
 
