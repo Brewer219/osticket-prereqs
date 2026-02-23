@@ -164,6 +164,11 @@ Before we select Install Now, we will need to configure our SQL and create the d
 7. Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
 8. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
 
+   <img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/25424f30-3efe-4783-a158-f167eaa04475" />
+
+
+
+
  
 
 <h9>Finalize osTicket Setup</h9>
