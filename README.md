@@ -36,7 +36,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
 4. Integrate Components: Complete the web-based installation of osTicket.
   
 
-<h2> Deployment & Installation Steps to Create Azure Virtual Machine</h2>
+<h2>Deployment & Installation Steps to Create Azure Virtual Machine</h2>
 
 Create an Azure Virtual Machine with the following settings.
 1. Create an Resource Group: Log into Azure and create a new resource group.
@@ -51,7 +51,7 @@ Create an Azure Virtual Machine with the following settings.
 > Important To NOTE: Credentials need to manage securely using a password manager.
 
 
-<h3> ENABLE IIS WEB SERVICES AND CGI</h3>
+<h3>ENABLE IIS WEB SERVICES AND CGI</h3>
 1.Use Remote Desktop Connect(RDP): Connect to the Viual Machine.
 2.Download osTicket Files: Retrieve osTicket-Installation-Files.zip and unzip on the desktop.
 3.Access Control Panel: Go to "Turn Windows features on or off" 
@@ -100,10 +100,32 @@ Finish the configuration
 MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
 
+<img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/ef6ffde0-2637-44a8-afd9-525fba79f045" />
 
 
 
-<h6> REGISTER PHP WITH IIS</h6>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h6>REGISTER PHP WITH IIS</h6>
 1. Open IIS Manager: Search for IIS, right-click, and select Run as Administrator.
 2. Register PHP: Select "Register New PHP Version" and browse to C:/PHP to select 'php-cgi.exe'.
 3. Restart IIS: Stop and start the web server to apply changes.
