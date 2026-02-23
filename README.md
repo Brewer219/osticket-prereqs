@@ -185,6 +185,7 @@ Congratulations, refer to the screenshots to ensure functionality!
 - For End User to create tickets: http://localhost/osTicket/
 
   
+<img width="319" height="405" alt="Step 3 Admin Staff Control" src="https://github.com/user-attachments/assets/68b0fa66-763e-4b3f-8985-09dc3fbd7777" />
 
 
 
