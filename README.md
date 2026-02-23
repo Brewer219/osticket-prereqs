@@ -64,16 +64,60 @@ Create an Azure Virtual Machine with the following settings.
 <h4> INSTALL PHP MANAGER AND PREREQUISITES</h4>
 1. Install PHP Manager: For IIS Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer.
 >![Note]
->osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket.
+>osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket. 
 
-2. Install IIS URL Rewrite Module: Locate rewrite_amd64_en-US.msi and proceed with installation.
-3. >[!Note]: osTicket relies on URL rewriting for proper navigation and functionality. 
-4. Install the PHP Runtime
-6. Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
-7. Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
-8. Install Visual C++ Redistributable: Run 'VC_redist.x86.exe' to install the neccessary libraries.
+
+
+<img width="325" height="317" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/99911f35-19e3-4c63-bf36-6c42b988300c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <h5>Install IIS URL Rewrite Module</h5> 
+ 1. Locate rewrite_amd64_en-US.msi and proceed with installation.
+ 2. >[!Note]: osTicket relies on URL rewriting for proper navigation and functionality. 
+ 3. Install the PHP Runtime
+ 4. Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
+ 5. Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
+ 6. Install Visual C++ Redistributable: Run 'VC_redist.x86.exe' to install the neccessary libraries.
    
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <h5>Install and Configure MySQL Server</h5>
