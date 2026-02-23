@@ -181,7 +181,7 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - MySQL Password: 'root'
 - Complete Installation: "Select Install Now" button
   
-<img width="385" height="333" alt="Step 7 Hedi" src="https://github.com/user-attachments/assets/26beb034-6e29-4cf0-8028-af55a6b959f0" /><img width="367" height="319" alt="Step 8 Hedi" src="https://github.com/user-attachments/assets/729d9909-1e8b-4225-9a2b-d378112fb02a" />
+<img width="367" height="319" alt="Step 8 Hedi" src="https://github.com/user-attachments/assets/729d9909-1e8b-4225-9a2b-d378112fb02a" />
 
 
 
