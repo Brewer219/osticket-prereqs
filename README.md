@@ -143,10 +143,16 @@ Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTi
 
 
 
-
-
-
 And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK. 
+
+
+<img width="324" height="411" alt="Step 16 ost- hit apply then okay" src="https://github.com/user-attachments/assets/cb4f5a96-5e1e-4a4d-8c3a-360114de1a53" />
+
+
+
+
+
+
 
 
 
