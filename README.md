@@ -57,15 +57,23 @@ Create an Azure Virtual Machine with the following settings.
 3.Access Control Panel: Go to "Turn Windows features on or off" 
 4. Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to enable CGI. Click OK to install.
 
+<img width="348" height="348" alt="Step 5 of Installing IIS" src="https://github.com/user-attachments/assets/54f50d99-cb02-47a7-abcf-014019f60f3c" />
+
+
+
+
+
+
+
 
 > [!NOTE]: Internet Information Services (IIS) serves as the web server that host the osTicket application.
 
 
 <h4> INSTALL PHP MANAGER AND PREREQUISITES</h4>
-1. Install PHP Manager: For IIS Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer.
-osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly. This step also helps manage PHP configuration settings and maintain version compatibility with osTicket. 
+1.Install PHP Manager: For IIS Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer.
+osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly.This step also helps manage PHP configuration settings and maintain version compatibility with osTicket. 
 
-<img width="325" height="317" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/17e5a191-8823-4a2c-a2ad-c45ee0800ebf" />
+  <img width="325" height="317" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/17e5a191-8823-4a2c-a2ad-c45ee0800ebf" />
 
 
 
