@@ -93,6 +93,34 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
+<img width="325" height="417" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/17e5a191-8823-4a2c-a2ad-c45ee0800ebf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
