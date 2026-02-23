@@ -162,6 +162,7 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 
 
 <h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
+
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
 
 
@@ -176,6 +177,18 @@ Before we select Install Now, we will need to configure our SQL and create the d
 8. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
 
    <img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/25424f30-3efe-4783-a158-f167eaa04475" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
