@@ -57,6 +57,13 @@ Create an Azure Virtual Machine with the following settings.
 3.Access Control Panel: Go to "Turn Windows features on or off" 
 4. Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to enable CGI. Click OK to install.
 
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+
 <img width="348" height="348" alt="Step 5 of Installing IIS" src="https://github.com/user-attachments/assets/54f50d99-cb02-47a7-abcf-014019f60f3c" />
 
 
@@ -72,6 +79,12 @@ Create an Azure Virtual Machine with the following settings.
 <h4> INSTALL PHP MANAGER AND PREREQUISITES</h4>
 1.Install PHP Manager: For IIS Locate PHPManagerForIIS_V1.5.0.msi in the installation folder and run the installer.
 osTicket is a PHP-based web application. PHP Manager enables IIS to properly process and manage PHP files, ensuring the application runs correctly.This step also helps manage PHP configuration settings and maintain version compatibility with osTicket. 
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
 
   <img width="325" height="317" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/17e5a191-8823-4a2c-a2ad-c45ee0800ebf" />
 
@@ -166,6 +179,13 @@ Finish the configuration
 MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
 
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+
 <img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/ef6ffde0-2637-44a8-afd9-525fba79f045" />
 
 
@@ -234,6 +254,13 @@ Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTi
 And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK. 
 
 
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+
 <img width="324" height="411" alt="Step 16 ost- hit apply then okay" src="https://github.com/user-attachments/assets/cb4f5a96-5e1e-4a4d-8c3a-360114de1a53" />
 
 
@@ -264,6 +291,14 @@ Before we select Install Now, we will need to configure our SQL and create the d
 7. Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
 8. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
 
+
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
    <img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/25424f30-3efe-4783-a158-f167eaa04475" />
 
 
@@ -289,7 +324,13 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - MySQL Database Settings: 'osTicket'
 - MySQL Username: 'root'
 - MySQL Password: 'root'
-- Complete Installation: "Select Install Now" button
+- Complete Installation: "Select Install Now" button.
+
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
   
 
 <img width="341" height="464" alt="Step 17 Hedi osTicket Install Admin" src="https://github.com/user-attachments/assets/3710b3b0-e332-45c0-9342-e88a132be198" />
@@ -310,6 +351,11 @@ Congratulations, refer to the screenshots to ensure functionality!
 - Admin Login: http://localhost/osTicket/scp/login.php
 - For End User to create tickets: http://localhost/osTicket/
 
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
   
 <img width="319" height="405" alt="Step 3 Admin Staff Control" src="https://github.com/user-attachments/assets/68b0fa66-763e-4b3f-8985-09dc3fbd7777" />
 
