@@ -170,7 +170,7 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-<h3>ENABLE IIS WEB SERVICES AND CGI</h3>
+<h3>NEXT Process and Steps: ENABLE IIS WEB SERVICES AND CGI</h3>
 1.Use Remote Desktop Connect(RDP): Connect to the Viual Machine.
 2.Download osTicket Files: Retrieve osTicket-Installation-Files.zip and unzip on the desktop.
 3.Access Control Panel: Go to "Turn Windows features on or off" 
