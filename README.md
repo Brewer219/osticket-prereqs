@@ -226,13 +226,12 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="Once inside Control Panel then click on Programs" src="https://github.com/user-attachments/assets/cee86e92-abbb-4f05-92ca-ed03f7c13b16" />
 
-## 5. Click or Select 'Windows features on or off 
+## 5. Click or Select 'Windows features on or off' in the Control Panel 
 
 <details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
-</details>ck 'Windows features on or off'
-
+</details>
 <img width="321" height="467" alt="osTicket Installation Inside Programs select Windowns features on or off" src="https://github.com/user-attachments/assets/bdbcb8f9-620e-4d2a-96e4-6428ce9af83b" />
 
 ## 6. Then Enable CGI Feature
