@@ -173,21 +173,26 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-(--)
+
 
 
 
 
 <h3>NEXT Process and Steps: ENABLE IIS WEB SERVICES AND CGI</h3>
-1.Use Remote Desktop Connect(RDP): Connect to the Viual Machine.
-2.Download osTicket Files: Retrieve osTicket-Installation-Files.zip and unzip on the desktop.
-3.Access Control Panel: Go to "Turn Windows features on or off" 
-4. Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to enable CGI. Click OK to install.
+1. Now once log inside 'osticket-vm then Retrieve osTicket-Installation-Files.zip and unzip so it can be on the desktop.
+2.Type 'Windows + R and Type 'Control' in the box to pullup Access Control Panel: 
+3. Once In Control Panel Then Go to "Turn Windows features on or off" 
+4. In Order To Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to Then Checkmark enable CGI. Click OK to install.
 
-<details><summary>See screenshots</summary>
+<details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+ ## 1. Downloading osTicket-Installation Files that Zipped
+
+ <img width="321" height="467" alt="Opening up osTicket Installation zip file and then download it" src="https://github.com/user-attachments/assets/f93f3257-1b66-48bd-83f1-6e0e0af471b3" />
+
+
 
 
 
