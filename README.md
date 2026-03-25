@@ -189,15 +189,25 @@ Create an Azure Virtual Machine with the following settings.
 <img src="images/Step 2b.png" width="60%">
 </details>
 
- ## 1. Downloading osTicket-Installation Files that Zipped
+ ## 1. Downloading osTicket-Installation Files that Are Zipped
 
  <img width="321" height="467" alt="Opening up osTicket Installation zip file and then download it" src="https://github.com/user-attachments/assets/f93f3257-1b66-48bd-83f1-6e0e0af471b3" />
 
+ ## 2. Then Unzip osTicket-Installation File onto Desktop By Right-Clicking to Extract it
+
+ <details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket Installation Folder that actually truly unzip and files can be extracted" src="https://github.com/user-attachments/assets/a8ec57f3-276d-4618-bfb8-46ae5cd21913" />
 
 
 
 
-<img width="348" height="348" alt="Step 5 of Installing IIS" src="https://github.com/user-attachments/assets/54f50d99-cb02-47a7-abcf-014019f60f3c" />
+
+
+
 
 
 
