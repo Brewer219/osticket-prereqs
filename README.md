@@ -75,6 +75,18 @@ Create an Azure Virtual Machine with the following settings.
 <img width="321" height="467" alt="Creating osTicket VM " src="https://github.com/user-attachments/assets/9a803390-5776-46d9-a571-9918c42d9b94" />
 
 
+## 6. Fill Out The Fields For Image and Size
+
+<img width="321" height="467" alt="osTicket vm image and size fields already selected" src="https://github.com/user-attachments/assets/46dbb9aa-b2f1-450e-b008-44d950e742d9" />
+
+## 7. Creating An Administrator Account For osTicket Virtual Machine
+
+<img width="321" height="467" alt="osTicket creating credentials for to log into vm machine" src="https://github.com/user-attachments/assets/dab0b5fb-ab86-40c0-91ab-4cfc2e97c4c7" />
+
+
+
+
+
 
 
 
