@@ -392,26 +392,90 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-<h5>Install and Configure MySQL Server</h5>
-1. Run MySQL Installer: Locate 'mysql-5.5.62-win32.msi' and initiate installation folder and begin the installation process.
-2. Select Typical Installation: Click Install and launch the MySQL Configuration Wizard.
-3. Configuration Wizard: Choose Standard Configuration and set both the username and password to 'root'. Then Finish the setup.
-17. After installation completes, launch the MySQL Configuration Wizard
+## <h5>Install and Configure MySQL Server</h5>
+## 1. Locate 'mysql-5.5.62-win32.msi' and initiate installation folder and begin the installation process.
 
-Within the wizard:
+  <details><summary>See screenshots</summary>
 
-Choose Standard Configuration
+<img src="images/Step 2b.png" width="60%">
+</details>
+   <img width="321" height="467" alt="Install mysql 5 5 62 for osTicket database" src="https://github.com/user-attachments/assets/eae6e8ee-f9fe-4a6b-9f3f-47b72672af32" />
 
-Continue selecting Next until you reach the Modify Security Settings screen
+   ## 2. Accept the Licensing and Terms for mysql-5.5.62
+   
+   <details><summary>See screenshots</summary>
 
-Set both the username and password to:
-root
+<img src="images/Step 2b.png" width="60%">
+</details>
+   
+   
+   <img width="321" height="467" alt="mysql 5 5 62 click licensing box then click next" src="https://github.com/user-attachments/assets/e295a21d-1623-4124-a7cb-c192de80dbac" />
 
-Proceed by selecting Next
 
-Click Execute
+   
 
-Finish the configuration
+   
+## 3. Select Typical Installation: <details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="mysql server data base click &#39;Typical&#39;" src="https://github.com/user-attachments/assets/1906905c-86fe-4084-ad7d-411cca8a3533" />
+
+
+
+
+
+## 4. Click Install and launch the MySQL Configuration Wizard.
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="mysql server database click Install button" src="https://github.com/user-attachments/assets/3aceda39-14e4-4777-90eb-cba4b5c265cc" />
+
+
+## 5. Configuration Wizard: Select Standard Configuration Options<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="To launch mysql database configuration click the &#39;Standard&#39; option" src="https://github.com/user-attachments/assets/cba6c1d8-15c1-457d-874a-ee1c0b857916" />
+
+
+## 6. Continue selecting Next until you reach the Modify Security Settings screenand set both the username and password to 'root'. Then Finish the setup.
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="mysql database typing in &#39;root&#39; but not good for business environment but leave everything as is" src="https://github.com/user-attachments/assets/2e2eb850-2c03-4442-974e-f5ff4ca42edd" />
+
+   
+ After installation completes, launch the MySQL Configuration Wizard
+
+
+## 7. Proceed by selecting Next Click Execute
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="after typing &#39;root&#39; for password in mysql for configuration process then click the&#39;Execute&#39; button" src="https://github.com/user-attachments/assets/c807c715-fbe7-48e7-be26-7fb9dca7b9ab" />
+
+
+## 8. Finish the configuration
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="mysql 5 5 62 once everything is checked off in processing configuration then click &#39;Finish&#39; button" src="https://github.com/user-attachments/assets/7a29c1bf-559c-4496-8e74-47b228e691b7" />
+
 
 MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
 
@@ -420,16 +484,6 @@ MySQL serves as the database backend for osTicket, storing tickets, user informa
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-
-
-
-<img width="366" height="438" alt="Step 9 MySQL sever 5 5 62" src="https://github.com/user-attachments/assets/ef6ffde0-2637-44a8-afd9-525fba79f045" />
-
-
-
-
-
-
 
 
 
