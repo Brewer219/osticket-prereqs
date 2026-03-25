@@ -266,21 +266,30 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-## <h5>Next Process: Install IIS URL Rewrite Module And Create a PHP Folder in the C Drive</h5> 
- - Locate rewrite_amd64_en-US.msi and proceed with installation.
+### <h5>Next Process: Install IIS and  And Create a PHP Folder in the C Drive</h5> 
+ -  Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
+ -  From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
  - osTicket relies on URL rewriting for proper navigation and functionality. 
  - Install the PHP Runtime
  - Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
- - Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
+ 
  
    
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
+ ## <h6>Next Process: Then Install URL Rewrite Module</h6>
+# 1.Locate rewrite_amd64_en-US.msi and proceed with installation.
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+   <img width="321" height="467" alt="osTicket Installation the inside look for rewrite file" src="https://github.com/user-attachments/assets/a3d2c890-072e-42bf-86c0-554edd8fc912" />
 
 
 ## 1. Right-Click File Explorer and Click 'Windows C:' Drive
 
-<details><summary>See screenshots</summary>
+<details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -321,9 +330,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-
-
-## <h5>Install Visual C++ Redistributable</h5> 
+## <h7>Install Visual C++ Redistributable</h7> 
 
 ## 1. Go back into osTicket-Installation Folder and click 'VC_redist.x86.exe' to install the neccessary libraries.
 
@@ -333,6 +340,8 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 </details>
 
 <img width="321" height="467" alt="Next Install VC redist 86x" src="https://github.com/user-attachments/assets/78cce297-230e-481c-aedd-b8e5869e206e" />
+
+>[!NOTE] Understand that osTicket relies on URL rewriting for proper navigation and functionality. 
 
 ## 2. In The Visual C++ below click 'agree to licensing terms and conditions'
 
@@ -374,8 +383,6 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
    
    <img width="321" height="467" alt="mysql 5 5 62 click licensing box then click next" src="https://github.com/user-attachments/assets/e295a21d-1623-4124-a7cb-c192de80dbac" />
 
-
-   
 
    
 ## 3. Select Typical Installation: <details><summary>See screenshots</summary>
@@ -450,7 +457,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 
-### <h6>Next Process: REGISTER PHP WITH IIS (Internet Information Services)</h6>
+### <h8>Next Process: REGISTER PHP WITH IIS (Internet Information Services)</h8>
 - How To Open IIS Manager 
 - How To Register PHP 
 - How To Restart IIS 
@@ -520,7 +527,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 
-### <h7>Next Process: ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h7>
+### <h9>Next Process: ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h9>
 * How To Extract osTicket Files
 * How To Enable PHP Extensions 
  -'php_imap.dll'
@@ -743,8 +750,22 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/60b31b71-0e3e-4bb0-9c63-215fcacace33" />
 
+## <h13> VERIFY INSTALLTION AND FUNCTIONAILTY</h113>
+Congratulations, refer to the screenshots to ensure functionality!
+- Admin Login: http://localhost/osTicket/scp/login.php
+- For End User to create tickets: http://localhost/osTicket/
 
-### <h7>Net Process:Setup Administrator Credentials For osTicket Helpdesk Browser</h7>
+
+<details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Congratulations osTicket finally and fully INSTALLED" src="https://github.com/user-attachments/assets/d0a809c4-28d4-4c10-aa5c-1973c8688e2c" />
+
+
+
+
+### <h10>Net Process:Setup Administrator Credentials For osTicket Helpdesk Browser</h10>
 - Name Helpdesk
 - Passwords
 - Default email (receives email from customers)
@@ -778,7 +799,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 
-### <h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
+### <h11>INSTALL HEIDISQL AND CONFIGURE SQL</h11>
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
 - Install HeidiSQL: 
@@ -817,7 +838,7 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
  
 
-<h9>Finalize osTicket Setup</h9>
+## <h12>Finalize osTicket Setup</h12>
 1. Continue Installation: Navigate to 'https://localhost/osticket/setup/'
 Back in the web browser, we will continue the osTicket setup. Enter the following
 - MySQL Database Settings: 'osTicket'
@@ -826,54 +847,86 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - Complete Installation: "Select Install Now" button.
 
 
-<details><summary>See screenshots</summary>
+<details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-  
-
-<img width="341" height="464" alt="Step 17 Hedi osTicket Install Admin" src="https://github.com/user-attachments/assets/3710b3b0-e332-45c0-9342-e88a132be198" />
+<img width="321" height="467" alt="Typing out in the Fields for osTicket before Installing" src="https://github.com/user-attachments/assets/3e0b8436-5d7b-472f-9e8d-1031db6a94d1" />
 
 
 
-<h10> VERIFY INSTALLTION AND FUNCTIONAILTY</h10>
-Congratulations, refer to the screenshots to ensure functionality!
-- Admin Login: http://localhost/osTicket/scp/login.php
-- For End User to create tickets: http://localhost/osTicket/
-
-
-<details><summary>See screenshots 1</summary>
-
-<img src="images/Step 2b.png" width="60%">
-</details>
-<img width="321" height="467" alt="Congratulations osTicket finally and fully INSTALLED" src="https://github.com/user-attachments/assets/78069338-d2a0-4fbd-a45c-c53cc51476eb" />
-
-<details><summary>See screenshots 2</summary>
+<details><summary>See screenshot 2</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
-<img width="321" height="467" alt="osTicket 1st Login Verification for me the Admin" src="https://github.com/user-attachments/assets/a158dd02-43f4-40fa-a7fe-9751d2dd5119" />
+<img width="466" height="346" alt="after getting this from desktop osTickect installation and accepting the licnese for Heidi click Next button" src="https://github.com/user-attachments/assets/4c43caf4-bd6a-4f05-823d-25a2d2d8ac85" />
 
-
-<details><summary>See screenshots 3</summary>
-
-<img src="images/Step 2b.png" width="60%">
-</details>
-<img width="321" height="467" alt="Finally login and inside osTicketing system " src="https://github.com/user-attachments/assets/ddc157a0-8301-4ee8-965f-7504969e2d91" />
-
-
-<details><summary>See screenshots 4</summary>
+<details><summary>See screenshot 3</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-<img width="321" height="467" alt="osTicket End User page setup for Users to submit tickets" src="https://github.com/user-attachments/assets/5866fe8e-8c51-4fd9-bdd0-414b4faf17b9" />
 
+<img width="321" height="467" alt="Heidi leave everything as is and click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/12dd90ba-ef42-49f5-9fd4-073a193b8afb" />
 
+<details><summary>See screenshot 4</summary>
 
+<img src="images/Step 2b.png" width="60%">
+</details>
 
+<img width="321" height="467" alt="Heidi Menus Bar click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/a7f6be04-af06-4f15-ae2e-16083892ade3" />
 
+<details><summary>See screenshot 5</summary>
 
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="The Final Heidi Installing Now" src="https://github.com/user-attachments/assets/f624230e-350c-4dfb-b026-eb433ef58975" />
+
+<details><summary>See screenshot 6</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Final Final click the &#39;Finish&#39; button for Heidi" src="https://github.com/user-attachments/assets/190b1503-d9f8-4496-bb26-c07393850ad3" />
+
+<details><summary>See screenshot 7</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Check for Heidi Updates click the &#39;Skip&#39; button" src="https://github.com/user-attachments/assets/ae038218-2498-4e21-a469-5051299b09b3" />
+
+<details><summary>See screenshot 8</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Heidi Opens up with Session Manager box now below on Left click on New button" src="https://github.com/user-attachments/assets/b37e31c6-eae1-4951-902a-77b7552bb583" />
+
+<details><summary>See screenshot 9</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Heidi session type &#39;root&#39; for Password field to as well which was set up in mysql 5 5 62 and click &#39;Open&#39;" src="https://github.com/user-attachments/assets/6db4c306-5067-41fc-a32d-df8746903f45" />
+
+<details><summary>See screenshot 10</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="For Heidi now a click is open to osTicket database" src="https://github.com/user-attachments/assets/d5f9bf23-c26d-4d27-a5e1-7b6a3a028baa" />
+
+<details><summary>See screenshot 11</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Inside Heidi database Host page right click &#39;unarmed&#39; then click &#39;create new&#39; then click &#39;database&#39;" src="https://github.com/user-attachments/assets/99101f73-75cf-4089-8db6-af3e6e88825d" />
+
+<details><summary>See screenshot 12</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Heidi osTicket database it will eventually create things inside of there" src="https://github.com/user-attachments/assets/58e282da-213f-4b25-9921-fd60f22b99de" />
 
 
 
