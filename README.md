@@ -179,10 +179,10 @@ Create an Azure Virtual Machine with the following settings.
 
 
 <h3>NEXT Process and Steps: ENABLE IIS WEB SERVICES AND CGI</h3>
-1. Now once log inside 'osticket-vm then Retrieve osTicket-Installation-Files.zip and unzip so it can be on the desktop.
-2.Type 'Windows + R and Type 'Control' in the box to pullup Access Control Panel: 
-3. Once In Control Panel Then Go to "Turn Windows features on or off" 
-4. In Order To Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to Then Checkmark enable CGI. Click OK to install.
+- Now once log inside 'osticket-vm then Retrieve osTicket-Installation-Files.zip and unzip so it can be on the desktop.
+- Type 'Windows + R and then Type 'Control' in the box to pullup Access Control Panel: 
+- Once In Control Panel Then Go to "Turn Windows features on or off" 
+- In Order To Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to Then Checkmark enable CGI. Click OK to install.
 
 
 
@@ -207,19 +207,31 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
+> [!NOTE]: When it comes to Internet Information Services (IIS) it serves as the web server that host the osTicket application.
+> Now Moving Along To Step....
+
+## 3. To Enable IIS In Windows and CGI 
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket installing IIS by typing &#39;control&#39; in windows R box for pulling up control panel" src="https://github.com/user-attachments/assets/77b55e2d-d33e-45c3-9a75-93348ca62758" />
+
+## 4. Once Inside The Control Panel Click 'Programs'
+<img width="321" height="467" alt="Once inside Control Panel then click on Programs" src="https://github.com/user-attachments/assets/cee86e92-abbb-4f05-92ca-ed03f7c13b16" />
+
+## 5. Click 'Windows features on or off'
+<img width="775" height="512" alt="osTicket Installation Inside Programs select Windowns features on or off" src="https://github.com/user-attachments/assets/bdbcb8f9-620e-4d2a-96e4-6428ce9af83b" />
+
+## 6. Then Enable CGI Feature
+> ### [!NOTE]: For The Next Steps and Procedures Make sure 'Internet Information Services' is checked box--->> Make Sure 'World Wide Web Service' is checkmarked and expand--->> Make Sure 'Application Development Features'  and expand it and then scroll down and look for CGI feature and checkbox it.
+
+<img width="321" height="467" alt="osTicket Installation check Internet Information Services, go to WWWS then click expand ADF then select CGI decepencies" src="https://github.com/user-attachments/assets/67d0a71b-a11c-4b6b-b284-2ed1a5811d70" />
 
 
 
 
 
-
-
-
-
-
-
-
-> [!NOTE]: Internet Information Services (IIS) serves as the web server that host the osTicket application.
 
 
 <h4> INSTALL PHP MANAGER AND PREREQUISITES</h4>
