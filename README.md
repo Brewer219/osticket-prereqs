@@ -52,9 +52,9 @@ Create an Azure Virtual Machine with the following settings.
 <details><summary>See screenshots</summary>
 <img src="images/Step 3a.PNG" width="60%" >
 </details> 
-1.
+
  
-<img width="456" height="333" alt="osTicket creating a Resource Group" src="https://github.com/user-attachments/assets/f0202a8d-f5b1-4ada-afa9-82ec18eb92c6" />
+<img width="456" height="333" alt="osTicket creating a Resource Group" src="https://github.com/user-attachments/assets/f0202a8d-f5b1-4ada-afa9-82ec18eb92c6" />1.
 
 
 
