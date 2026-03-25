@@ -100,7 +100,7 @@ Create an Azure Virtual Machine with the following settings.
 <img width="321" height="467" alt="osTicket leave Networking tab and hit ReviewCreate and then finally create VM for osTicket" src="https://github.com/user-attachments/assets/14728fe4-fcac-4a6f-a2f2-bc5eb28bc689" />
 
 ## 12. From There Type Inside the Search Bar 'Virtual Machine' And Press Enter
-<details><summary>See screenshots</summary>
+<details><summary>See screenshot</summary>
 <img src="images/Step 3a.PNG" width="60%" >
 </details> 
 
