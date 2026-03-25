@@ -54,48 +54,79 @@ Create an Azure Virtual Machine with the following settings.
 
  
 ## 1. Creating Resource Group
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="328" height="485" alt="osTicket creating a Resource Group" src="https://github.com/user-attachments/assets/f0202a8d-f5b1-4ada-afa9-82ec18eb92c6" />
 
 
 ## 2. Click Review+Create Button
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket then click last button Create" src="https://github.com/user-attachments/assets/81eb03f6-c997-4b76-bd77-7f63baaa16fb" />
 
-## 3. Then Click the Create Button to Deploy the Resource Group 
+## 3. Then Click the Create Button to Deploy the Resource Group
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket then click last button Create" src="https://github.com/user-attachments/assets/ef7b6d95-a8ff-494d-8177-043056abd6be" />
 
 ## 4. Create an Virtual Machine In Azure for osTicket
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="Click the &#39;Create&#39; button for Virtual Machine for osTicket" src="https://github.com/user-attachments/assets/b8cb1840-83a0-4782-9bd3-188bd14b9967" />
 
 ## 5. Creating osTicket Virtual Machine In Azure in the Basics Tab
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="Creating osTicket VM " src="https://github.com/user-attachments/assets/9a803390-5776-46d9-a571-9918c42d9b94" />
 
 
 ## 6. Fill Out The Fields For Image and Size
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket vm image and size fields already selected" src="https://github.com/user-attachments/assets/46dbb9aa-b2f1-450e-b008-44d950e742d9" />
 
 ## 7. Creating An Administrator Account For osTicket Virtual Machine
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket creating credentials for to log into vm machine" src="https://github.com/user-attachments/assets/dab0b5fb-ab86-40c0-91ab-4cfc2e97c4c7" />
 
 ## 8. For osTicket VM Clicking On the License Box to Confirm Licensing and Click On Disk Tab
-
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 <img width="321" height="467" alt="osTicket vm creating confirm licensing by checkbox" src="https://github.com/user-attachments/assets/46c0f6e1-d0cb-4df8-8a7e-ad761eaed611" />
 
 ## 9. From Disk Tab Click On Networking Tab
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket vm Networking tab make sure subnet is default and virtual network correct" src="https://github.com/user-attachments/assets/4d172549-f615-468d-9487-02b23a41e7e6" />
 
-## 10. From There On The Networking Tab make sure The Subnet is Default And Then Click Review+Create Button 
-
+## 10. From There On The Networking Tab make sure The Subnet is Default And Then Click Review+Create Button
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 <img width="322" height="467" alt="osTicket vm Networking tab make sure subnet is default and virtual network correct" src="https://github.com/user-attachments/assets/e2b7af51-6edc-429b-a630-8b2719c7d720" />
 
-## 11. From There Click 'Create' Button to Deploy osTicket Virtual Machine Successfully 
+## 11. From There Click 'Create' Button to Deploy osTicket Virtual Machine Successfully
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details>
 
 <img width="321" height="467" alt="osTicket leave Networking tab and hit ReviewCreate and then finally create VM for osTicket" src="https://github.com/user-attachments/assets/14728fe4-fcac-4a6f-a2f2-bc5eb28bc689" />
 
