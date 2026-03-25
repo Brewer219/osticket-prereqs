@@ -83,7 +83,7 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="osTicket creating credentials for to log into vm machine" src="https://github.com/user-attachments/assets/dab0b5fb-ab86-40c0-91ab-4cfc2e97c4c7" />
 
-## 8. For osTicket VM Clicking On the License Box to Confirm Licnesing
+## 8. For osTicket VM Clicking On the License Box to Confirm Licensing
 
 <img width="321" height="467" alt="osTicket vm creating confirm licensing by checkbox" src="https://github.com/user-attachments/assets/46c0f6e1-d0cb-4df8-8a7e-ad761eaed611" />
 
