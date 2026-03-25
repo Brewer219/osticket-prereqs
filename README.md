@@ -392,7 +392,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-## <h5>Install and Configure MySQL Server</h5>
+## Install and Configure MySQL Server
 ## 1. Locate 'mysql-5.5.62-win32.msi' and initiate installation folder and begin the installation process.
 
   <details><summary>See screenshots</summary>
