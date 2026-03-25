@@ -188,6 +188,7 @@ Create an Azure Virtual Machine with the following settings.
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+
  ## 1. Downloading osTicket-Installation Files that Zipped
 
  <img width="321" height="467" alt="Opening up osTicket Installation zip file and then download it" src="https://github.com/user-attachments/assets/f93f3257-1b66-48bd-83f1-6e0e0af471b3" />
