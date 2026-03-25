@@ -70,6 +70,10 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="Click the &#39;Create&#39; button for Virtual Machine for osTicket" src="https://github.com/user-attachments/assets/b8cb1840-83a0-4782-9bd3-188bd14b9967" />
 
+## 5. Creating osTicket Virtual Machine In Azure in the Basics Tab
+
+<img width="321" height="467" alt="Creating osTicket VM " src="https://github.com/user-attachments/assets/9a803390-5776-46d9-a571-9918c42d9b94" />
+
 
 
 
