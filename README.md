@@ -268,62 +268,85 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 <img src="images/Step 2b.png" width="60%">
 </details>
 
+## 1. Download the PHP Manager IIS_v1.5.0 File and ONLY accept the Licensing and click next and leave everything 'as is' and close application 
 
-  <img width="325" height="317" alt="Step 7 Download PHPManagerIIS_v1 5 0 msi" src="https://github.com/user-attachments/assets/17e5a191-8823-4a2c-a2ad-c45ee0800ebf" />
+<details><summary>See screenshots</summary>
 
+<img src="images/Step 2b.png" width="60%">
+</details>
 
+<img width="321" height="467" alt="PHPManager for IIS v1 0 5 hit NEXT" src="https://github.com/user-attachments/assets/d1b1b189-28db-4179-926e-8b9fa6419369" />
 
-
-
-
-
-
-
-
+ 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <h5>Install IIS URL Rewrite Module</h5> 
- 1. Locate rewrite_amd64_en-US.msi and proceed with installation.
- 2. >[!Note]: osTicket relies on URL rewriting for proper navigation and functionality. 
- 3. Install the PHP Runtime
- 4. Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
- 5. Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
- 6. Install Visual C++ Redistributable: Run 'VC_redist.x86.exe' to install the neccessary libraries.
+## <h5>Install IIS URL Rewrite Module And Create a PHP Folder in the C Drive</h5> 
+ - Locate rewrite_amd64_en-US.msi and proceed with installation.
+ - osTicket relies on URL rewriting for proper navigation and functionality. 
+ - Install the PHP Runtime
+ - Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
+ - Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
+ - Install Visual C++ Redistributable: Run 'VC_redist.x86.exe' to install the neccessary libraries.
    
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
+
+
+
+## 1. Right-Click File Explorer and Click 'Windows C:' Drive
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket Installation rightclick File Explorer and click Windows C drive" src="https://github.com/user-attachments/assets/63fe51df-a26e-4cae-a699-68a7abcb6b81" />
+
+## 2. In The 'C:' Drive create a new folder and name it PHP
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket Installation once in C drive name the new folder PHP" src="https://github.com/user-attachments/assets/70757d1d-17bc-4fdf-97a3-c0392691ab5b" />
+
+## 3. Then go back to PHP 7.3.8 and click it
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket Installation folder click php 7 3 8 binary and right click extract it" src="https://github.com/user-attachments/assets/aa9462cd-561a-4592-aa04-1bf4cafea0ff" />
+
+## 4. For PHP 7.3.8 unzip the file by right clicking it and selecting the 'Extract' option
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket Installation php 7 3 8 being extracted by clicking on PHP folder" src="https://github.com/user-attachments/assets/66608b9c-57a4-49ff-b781-c94e6a3b81d6" />
+
+## 5. Then Browse and select the PHP folder that was recently created
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket Installation once PHP folder is found in C drive and selected then click Extract button" src="https://github.com/user-attachments/assets/99ceca0c-f477-4979-a4ae-892bdd18bc79" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
