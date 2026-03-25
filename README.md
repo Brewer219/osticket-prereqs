@@ -538,18 +538,21 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
   ## 2. Then copy the 'upload' folder to'C:\inetpub\wwwroot', renaming it to 'osTicket'.
+  
   <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-  <img width="321" height="467" alt="Loading the &#39;upload&#39; folder into wwwroot folder" src="https://github.com/user-attachments/assets/74f84b39-4b68-4924-8dcb-604faadb13f6" />
+<img width="321" height="467" alt="Copy the &#39;upload&#39; folder from new osTicket v1 15 8 into the &#39;wwwroot&#39; folder" src="https://github.com/user-attachments/assets/92e4419b-591c-4f95-8a6d-8ae7340ecc48" />
+
 
    <details><summary>See screenshot 2</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
-  <img width="321" height="467" alt="Copy the &#39;upload&#39; folder from new osTicket v1 15 8 into the &#39;wwwroot&#39; folder" src="https://github.com/user-attachments/assets/92e4419b-591c-4f95-8a6d-8ae7340ecc48" />
+<img width="321" height="467" alt="Loading the &#39;upload&#39; folder into wwwroot folder" src="https://github.com/user-attachments/assets/561e1fcc-9f53-4811-ad7a-b7c8d8f46b2f" />
+
 
 <details><summary>See screenshot 3</summary>
 
