@@ -165,19 +165,6 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h3>NEXT Process and Steps: ENABLE IIS WEB SERVICES AND CGI</h3>
 - Now once log inside 'osticket-vm then Retrieve osTicket-Installation-Files.zip and unzip so it can be on the desktop.
 - Type 'Windows + R and then Type 'Control' in the box to pullup Access Control Panel: 
@@ -371,25 +358,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="VC redist C++ once installed fully the click &#39;Close&#39; button" src="https://github.com/user-attachments/assets/d4d8e6cb-c5f0-402c-a737-139f8b46e876" />
 
-
-
-
-
-
-
   
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Install and Configure MySQL Server
@@ -477,7 +446,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 <img width="321" height="467" alt="mysql 5 5 62 once everything is checked off in processing configuration then click &#39;Finish&#39; button" src="https://github.com/user-attachments/assets/7a29c1bf-559c-4496-8e74-47b228e691b7" />
 
 
-MySQL serves as the database backend for osTicket, storing tickets, user information, and all system-related data.
+MySQL serves is the database backend for osTicket, storing tickets, user information, and all system-related data.
 
 
 <details><summary>See screenshots</summary>
@@ -487,38 +456,123 @@ MySQL serves as the database backend for osTicket, storing tickets, user informa
 
 
 
+### <h6>REGISTER PHP WITH IIS</h6>
+- How To Open IIS Manager 
+- How To Register PHP 
+- How To Restart IIS 
+
+
+## 1. Search for IIS which is Internet Information Services, right-click, and then select Run as Administrator.
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="For IIS Mnager click the &#39;Run as Admin&#39; button" src="https://github.com/user-attachments/assets/b3413e9d-2e7d-4131-828c-12f2734c3eef" />
+
+
+
+## 2. Double-click on the PHP Manager "Register New PHP Version"
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Once IIS Manager is open as Admin the register the PHP Manager by clicking it " src="https://github.com/user-attachments/assets/f3dd183f-f53d-4f57-8ce4-8ac42b375d70" />
+
+## 3. browse to C: drive to find PHP to select 'php-cgi.exe'.
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="Extracting php cgi" src="https://github.com/user-attachments/assets/7e54ce29-544a-458a-be09-05832091372f" />
+
+
+## 4. Make the php-cgi.exe is fully 'Installed'
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="After finding php cgi exe in the PHP folder and then click OK button now is has registered PHP and we back to PHP setup" src="https://github.com/user-attachments/assets/1ee2d9ef-ce46-4afe-95fd-9db36bddc373" />
+
+
+## 5. Stop the IIS Manager in order to apply the changes.
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Reload IIS 1 click STOP " src="https://github.com/user-attachments/assets/80168d66-fd57-47be-b851-2072ad58e4c6" />
+
+## 6. Start the IIS Manager in order to apply the changes.
+<details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="To Reload IIS 2 the click &#39;START&#39; againg" src="https://github.com/user-attachments/assets/cdb1324c-5d4b-433b-90df-66f7a9462a35" />
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-<h6>REGISTER PHP WITH IIS</h6>
-1. Open IIS Manager: Search for IIS, right-click, and select Run as Administrator.
-2. Register PHP: Select "Register New PHP Version" and browse to C:/PHP to select 'php-cgi.exe'.
-3. Restart IIS: Stop and start the web server to apply changes.
-
-
-
-
-
-<h7>ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h7>
-1. Extract osTicket Files: Extract 'osTicket-v1.15.8.zip' and copy the 'upload' folder to'C:\inetpub\wwwroot', renaming it to 'osTicket'.
-2. Enable PHP Extensions: In IIS Manager, enable the following:
+### <h7>Next Process: ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h7>
+* How To Extract osTicket Files
+* How To Enable PHP Extensions 
  -'php_imap.dll'
  -'php_intl.dll'
  -'php_opcache.dll'
-3. Configure File Permissions: Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click and set permissions for "Everyone" temporarily.
+* How To Configure File Permissions
 
+   ## 1. Extract 'osTicket-v1.15.8.zip' by right clicking the file
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+  
+  
+  <img width="321" height="467" alt="Now osTicket v1 15 8 is fully unzip or Extracted and made another folder uptop" src="https://github.com/user-attachments/assets/4bac78f8-92cb-49e2-9981-277ddc0061da" />
+  <img width="321" height="467" alt="Once you get to the Extract Compressed box the lean it at v1 15 8 and below click &#39;Extract&#39; button" src="https://github.com/user-attachments/assets/2f89971e-58c3-4cfa-9af7-a49958908415" />
+
+
+  ## 2. Then copy the 'upload' folder to'C:\inetpub\wwwroot', renaming it to 'osTicket'.
+  <details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+  <img width="321" height="467" alt="Loading the &#39;upload&#39; folder into wwwroot folder" src="https://github.com/user-attachments/assets/74f84b39-4b68-4924-8dcb-604faadb13f6" />
+
+   <details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  <img width="321" height="467" alt="Copy the &#39;upload&#39; folder from new osTicket v1 15 8 into the &#39;wwwroot&#39; folder" src="https://github.com/user-attachments/assets/92e4419b-591c-4f95-8a6d-8ae7340ecc48" />
+
+<details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+  
+  <img width="321" height="467" alt="Fully Finished on pasting &#39;upload&#39; folder into wwwroot" src="https://github.com/user-attachments/assets/46407404-81ca-43ce-8ffd-e4f3c97486eb" />
+
+  <details><summary>See screenshot 4</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  <img width="321" height="467" alt="Rename the &#39;upload&#39; folder inside wwwroot and call it &#39;osTicket&#39;" src="https://github.com/user-attachments/assets/5af4f2ee-782b-486f-b3a8-8bcb5435976d" />
+
+
+
+  
+  ## 3. In IIS Manager, enable the following extension
+   -'php_imap.dll'
+ -'php_intl.dll'
+ -'php_opcache.dll'
+  ## 4. Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click and set permissions for "Everyone" temporarily.
 
 [!Important]: This is insecure and should be restricted in real production environments. Assigning Everyone permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this lab to avoid installation issues; permissions should be restricted after setup in real environments.
 
@@ -555,18 +609,6 @@ And then  we'll add permissions, select Add, Select Principles, in the object na
 <img width="324" height="411" alt="Step 16 ost- hit apply then okay" src="https://github.com/user-attachments/assets/cb4f5a96-5e1e-4a4d-8c3a-360114de1a53" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
@@ -592,21 +634,6 @@ Before we select Install Now, we will need to configure our SQL and create the d
 
    <img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/25424f30-3efe-4783-a158-f167eaa04475" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 
 <h9>Finalize osTicket Setup</h9>
@@ -625,15 +652,6 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
   
 
 <img width="341" height="464" alt="Step 17 Hedi osTicket Install Admin" src="https://github.com/user-attachments/assets/3710b3b0-e332-45c0-9342-e88a132be198" />
-
-
-
-
-
-
-
-
-
 
 
 
