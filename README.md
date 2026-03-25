@@ -527,14 +527,27 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 * How To Configure File Permissions
 
    ## 1. Extract 'osTicket-v1.15.8.zip' by right clicking the file
-<details><summary>See screenshots</summary>
+<details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
   
   
   <img width="321" height="467" alt="Now osTicket v1 15 8 is fully unzip or Extracted and made another folder uptop" src="https://github.com/user-attachments/assets/4bac78f8-92cb-49e2-9981-277ddc0061da" />
+  <details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  
   <img width="321" height="467" alt="Once you get to the Extract Compressed box the lean it at v1 15 8 and below click &#39;Extract&#39; button" src="https://github.com/user-attachments/assets/2f89971e-58c3-4cfa-9af7-a49958908415" />
+  
+<details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+  <img width="321" height="467" alt="Once extensions are Enable then Refresh the localhost osTickert" src="https://github.com/user-attachments/assets/cb37d8a2-9602-492e-8739-0d7d06ea95ee" />
+
 
 
   ## 2. Then copy the 'upload' folder to'C:\inetpub\wwwroot', renaming it to 'osTicket'.
@@ -579,17 +592,25 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+
+<img width="321" height="467" alt="After leaving osTicket localhost and clicking PHP Manager click &#39;Enable or disable an extension&#39;" src="https://github.com/user-attachments/assets/2a06b1be-8251-45af-a6f5-232ea1121e1a" />
+
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
  
  <img width="321" height="467" alt="For Extension put enable mode for imap" src="https://github.com/user-attachments/assets/3199a0aa-0f18-41eb-a1b5-9e59b9a63887" />
 
-  <details><summary>See screenshot 2</summary>
+  <details><summary>See screenshot 3</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
  <img width="321" height="467" alt="For Extension intl put enable mode" src="https://github.com/user-attachments/assets/c9d9de6d-3ca2-4345-8fa8-50ad1b196ab1" />
 
- <details><summary>See screenshot 3</summary>
+ <details><summary>See screenshot 4</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -597,63 +618,189 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 <img width="321" height="467" alt="For Extension opcache put enable mode" src="https://github.com/user-attachments/assets/689cd4e3-aa64-47aa-9e02-a3fe6e5f6463" />
 
  
-
  
 
+  ## 4. Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click to go to 'Properties' option and set permissions for "Everyone" temporarily.
+  <details><summary>See screenshot 1</summary>
 
- 
-
-  ## 4. Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click and set permissions for "Everyone" temporarily.
-
-[!Important]: This is insecure and should be restricted in real production environments. Assigning Everyone permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this lab to avoid installation issues; permissions should be restricted after setup in real environments.
-
-
-
-
-
-4. Reload IIS by restarting the web server again, stop and start instructions from Step 3 and minimize IIS Manager. Now in your web browser, navigate to "http://localhost/osticket/setup/".
+<img src="images/Step 2b.png" width="60%">
+</details>
+  <img width="321" height="467" alt="Once in the &#39;INCLUDE&#39; folder rename ost sample to ost config" src="https://github.com/user-attachments/assets/b0dfd33f-ae3e-4226-9c3b-c6bd506f16e2" />
 
   
+ <details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="ost-sampleconfig to new name ost-config" src="https://github.com/user-attachments/assets/895e6107-20bf-4295-aaaa-050ad43d7690" />
+
+ <details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Right click ost config and select Properties and click the Security tab then click &#39;Advance&#39;" src="https://github.com/user-attachments/assets/341bf16e-a050-42a6-b1a7-ba1e68dff56d" />
+
+ <details><summary>See screenshot 4</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="For ost config after going into Properties and clicking &#39;Security&#39; tab and clicking the &#39;Advanced&#39; button then click on the &#39;Disable inheritance&#39;" src="https://github.com/user-attachments/assets/3bebe81d-e59c-4651-b25d-866b168c45f4" />
+
+<details><summary>See screenshot 5</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="for ost config once clicking the &#39;Advanced&#39; button and then click &#39;disable inheritances&#39; and click option to REMOVE inherit permission" src="https://github.com/user-attachments/assets/50d2e8e0-a67f-4ed2-82ad-317f180bf3e8" />
+
+<details><summary>See screenshot 6</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Now there no permissions and click the &#39;Add&#39; button to add new permissions" src="https://github.com/user-attachments/assets/1eef9cb9-de64-4274-b8f6-6966fdc0d5fd" />
 
 
 
+<details><summary>See screenshot 7</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="ost config permission entry box click &#39;Select a principal&#39;" src="https://github.com/user-attachments/assets/4350a50d-1bec-4158-91f2-05233687295d" />
+
+<details><summary>See screenshot 8</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Permission Entry ost config type Everyone with understanding it not good to do in real life because security reasons" src="https://github.com/user-attachments/assets/0b34360d-fcdf-4bc1-940a-b27cb7166664" />
+
+<details><summary>See screenshot 9</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="In Permission Entry ost config click &#39;Full Control&#39; box then click OK" src="https://github.com/user-attachments/assets/cd48e879-e005-4103-b0ef-f488ff59117d" />
+
+<details><summary>See screenshot 10</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Click Apply from ost config Advanced Security Settings" src="https://github.com/user-attachments/assets/5ce23612-4e1b-4a4e-80f6-ce7490f3e765" />
+
+<details><summary>See screenshot 11</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Then for ost config after clicking &#39;Apply&#39; the click the OK button" src="https://github.com/user-attachments/assets/87dc4149-cb2d-4c58-87a9-9a24779aaed9" />
 
 
-5. Refresh the osTicket site in the web browser and notice the changes.
-Now we will be assigning permissions. Go to folder <code>C:\inetpub\wwwroot\osTicket\include</code> and find file <code>ost-sampleconfig.php</code>. Rename this file to <code>ost-config.php</code>. Now right-click file and select Properties. In Security tab, go to Advanced. Select Disable inhertiance > Remove all inhertied permissions. We are stripping away all current permissions here.
+[!Important]: This is insecure and should be restricted in real production environments. Assigning 'Everyone' permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this project to avoid installation issues; permissions should be restricted after setup in real business environments.
 
 
 
-
-
-
-And then  we'll add permissions, select Add, Select Principles, in the object name text field, type, "Everyone" and then Check Names to underline our group and select OK. For basic permissions, select Full Control and OK. 
-
-
-<details><summary>See screenshots</summary>
+## 4. Now go back IIS Manager to reload it by restarting the web server again, stop and start instructions
+<details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
 
+<img width="321" height="467" alt="After leaving wwwroot folder comeback IIS Manager to reload 1 click &#39;STOP&#39; button" src="https://github.com/user-attachments/assets/982e22e0-e0a5-4e50-8540-d52806340723" />
 
-<img width="324" height="411" alt="Step 16 ost- hit apply then okay" src="https://github.com/user-attachments/assets/cb4f5a96-5e1e-4a4d-8c3a-360114de1a53" />
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="After Leaving wwwroot folder comeback to IIS Manager 2 for to Reload and then &#39;START&#39; again" src="https://github.com/user-attachments/assets/2b0da0df-9320-4416-a205-ffa03ceb1ca5" />
 
 
-<h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
+
+
+
+## 5. Then minimize IIS Manager and Now in your web browser, navigate to 
+ http://localhost/osTicket/scp/login.php
+
+ <details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+ 
+ <img width="321" height="467" alt="The localhost osTicket new refresh page" src="https://github.com/user-attachments/assets/46ec7d6e-132e-4251-a40a-200f102b2a9a" />
+
+
+
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/60b31b71-0e3e-4bb0-9c63-215fcacace33" />
+
+
+### <h7>Setup Administrator Credentials For osTicket Helpdesk Browser</h7>
+- Name Helpdesk
+- Passwords
+- Default email (receives email from customers)
+- Everyday used Emails
+
+## 1. Click the 'Continue' button from the local host osTicket
+  <details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/66e91b5e-0c43-429b-a59e-e67d6c6856d4" />
+
+  ## 2. Type into the System setting Fields
+
+  <details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  <img width="321" height="467" alt="Typing into osTicket Fields before Installing" src="https://github.com/user-attachments/assets/6b7369b0-2459-4aaf-bf41-39e7a08bfcef" />
+
+   <details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+  
+<img width="321" height="467" alt="Typing out Fields for Heidi before Installing" src="https://github.com/user-attachments/assets/12eba346-dc53-417e-994a-f4bdd96c7d1b" />
+
+
+
+### <h8>INSTALL HEIDISQL AND CONFIGURE SQL</h8>
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
+- Install HeidiSQL: 
+- Create Database: 
+- Include osTicket setup, select Continue >> near the bottom. 
+- osTicket System Settings 
+- In Admin User Field 
+- Back osTicket in the installation folder, find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
+- Navigating Session Manager window
+- Recircle back to Heidi database server 
 
 
-1. Install HeidiSQL: Run 'HeidoSQL_12.3.0.6589_Setup.exe' with default settings.
-2. Create Database: Connect using 'root' as the password, create a database named 'osTicket'.
+'HeidoSQL_12.3.0.6589_Setup.exe' with default settings.
+ Connect using 'root' as the password, create a database named 'osTicket'.
+ The osTicket setup, select Continue >> near the bottom.
+ In System Settings, enter the help desk name and default email.
+  In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
+ find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
+Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
+ Recircle back to Heidi database server Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
+ 
+ Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
+ Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
 
-3. The osTicket setup, select Continue >> near the bottom. 
-4. In System Settings, enter the help desk name and default email.
-5. In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
-6. Back in the installation folder, find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
-7. Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
-8. Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.
+
 
 
 
@@ -692,12 +839,49 @@ Congratulations, refer to the screenshots to ensure functionality!
 - For End User to create tickets: http://localhost/osTicket/
 
 
-<details><summary>See screenshots</summary>
+<details><summary>See screenshots 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+<img width="321" height="467" alt="Congratulations osTicket finally and fully INSTALLED" src="https://github.com/user-attachments/assets/78069338-d2a0-4fbd-a45c-c53cc51476eb" />
+
+<details><summary>See screenshots 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket 1st Login Verification for me the Admin" src="https://github.com/user-attachments/assets/a158dd02-43f4-40fa-a7fe-9751d2dd5119" />
+
+
+<details><summary>See screenshots 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Finally login and inside osTicketing system " src="https://github.com/user-attachments/assets/ddc157a0-8301-4ee8-965f-7504969e2d91" />
+
+
+<details><summary>See screenshots 4</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket End User page setup for Users to submit tickets" src="https://github.com/user-attachments/assets/5866fe8e-8c51-4fd9-bdd0-414b4faf17b9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-<img width="319" height="405" alt="Step 3 Admin Staff Control" src="https://github.com/user-attachments/assets/68b0fa66-763e-4b3f-8985-09dc3fbd7777" />
+
 
 
 
