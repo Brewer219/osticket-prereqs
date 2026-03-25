@@ -228,6 +228,16 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="osTicket Installation check Internet Information Services, go to WWWS then click expand ADF then select CGI decepencies" src="https://github.com/user-attachments/assets/67d0a71b-a11c-4b6b-b284-2ed1a5811d70" />
 
+## 7. IIS Internet Information Webserver is Finally Enable
+
+ <details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket after installing CGI now IIS webserver in working now for the installation" src="https://github.com/user-attachments/assets/3f8bec2a-bda0-488f-a035-a320223dfce4" />
+
+
 
 
 
