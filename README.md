@@ -224,7 +224,7 @@ Create an Azure Virtual Machine with the following settings.
 <img width="775" height="512" alt="osTicket Installation Inside Programs select Windowns features on or off" src="https://github.com/user-attachments/assets/bdbcb8f9-620e-4d2a-96e4-6428ce9af83b" />
 
 ## 6. Then Enable CGI Feature
-> ### [!NOTE]: For The Next Steps and Procedures Make sure 'Internet Information Services' is checked box--->> Make Sure 'World Wide Web Service' is checkmarked and expand--->> Make Sure 'Application Development Features'  and expand it and then scroll down and look for CGI feature and checkbox it.
+> ### [!NOTE]: For The Next Steps and Procedures Make sure 'Internet Information Services' is checked box--->> Make Sure 'World Wide Web Service' is checkmarked and expand--->> Make Sure 'Application Development Features'  and expand it and then scroll down and look for CGI feature and checkbox it and click 'OK'.
 
 <img width="321" height="467" alt="osTicket Installation check Internet Information Services, go to WWWS then click expand ADF then select CGI decepencies" src="https://github.com/user-attachments/assets/67d0a71b-a11c-4b6b-b284-2ed1a5811d70" />
 
