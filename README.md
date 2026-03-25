@@ -184,12 +184,15 @@ Create an Azure Virtual Machine with the following settings.
 3. Once In Control Panel Then Go to "Turn Windows features on or off" 
 4. In Order To Enable IIS: Check mark Internet Information Services and expand "World Wide Web > Application Development Features" to Then Checkmark enable CGI. Click OK to install.
 
+
+
+ ## 1. Downloading osTicket-Installation Files that Are Zipped
+
 <details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-
- ## 1. Downloading osTicket-Installation Files that Are Zipped
+ 
 
  <img width="321" height="467" alt="Opening up osTicket Installation zip file and then download it" src="https://github.com/user-attachments/assets/f93f3257-1b66-48bd-83f1-6e0e0af471b3" />
 
