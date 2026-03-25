@@ -95,6 +95,11 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="322" height="467" alt="osTicket vm Networking tab make sure subnet is default and virtual network correct" src="https://github.com/user-attachments/assets/e2b7af51-6edc-429b-a630-8b2719c7d720" />
 
+## 11. From There Click 'Create' Button to Deploy osTicket Virtual Machine
+
+<img width="321" height="467" alt="osTicket leave Networking tab and hit ReviewCreate and then finally create VM for osTicket" src="https://github.com/user-attachments/assets/14728fe4-fcac-4a6f-a2f2-bc5eb28bc689" />
+
+
 
 
 
