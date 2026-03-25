@@ -106,9 +106,21 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="go to the Azure VM page and now checkmark and click osticketvm" src="https://github.com/user-attachments/assets/bfda7281-7525-43d7-b44a-5d693066469f" />
 
-## 13. Click The 'osticket' Virtual Machine To Get Inside To Click The 'Connect' Button To Obtain the RDP file to Download the Remote Desktop Application
+## 13. Click The 'osticket' Virtual Machine To Get Inside To Click The 'Connect' Button To Obtain the RDP file to Download the Remote Desktop Application 
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details> 
+
 
 <img width="321" height="467" alt="osticketvm after clicking the Connect button click &#39;Download RDP file&#39;" src="https://github.com/user-attachments/assets/993ab991-c24c-47c0-8c75-8f99338fc02c" />
+
+## 14. Allow 'osticket' Virtual Machine to Be downloaded from My Personal PC
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details> 
+
+<img width="321" height="467" alt="osTicket VM the RDP file is Downloaded" src="https://github.com/user-attachments/assets/3d666453-c0a8-4d9c-8725-3ce816726916" />
+
 
 
 
