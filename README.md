@@ -10,7 +10,7 @@
 <p>
 This project outlines the process of installing a self-hosted osTicket help desk system on Windows. It marks the first installment of a three-part series that will cover installation, configuration, and ticket lifecycle management. The emphasis is on deploying osTicket using modular infrastructure components instead of relying on a single bundled installer. This approach highlights the preparation and integration of the web server, scripting runtime, and database necessary for the application. Establishing this foundational setup creates a robust environment for future projects, which will delve into system configuration and practical ticket workflows.</p>
 
-<h2> Technologies Used</h2>
+## <h2>Technologies Used</h2>
 
 <p align="left">
 <img src="https://skillicons.dev/icons?i=azure,windows,php,mysql" />&nbsp;&nbsp;
@@ -36,7 +36,7 @@ This project outlines the process of installing a self-hosted osTicket help desk
 4. Integrate Components: Complete the web-based installation of osTicket.
   
 
-<h2>Deployment & Installation Steps to Create Azure Virtual Machine</h2>
+## <h3>Next Process: Deployment & Installation Steps to Create Azure Virtual Machine</h3>
 
 Create an Azure Virtual Machine with the following settings.
 1. Create an Resource Group: Log into Azure and create a new resource group.
@@ -165,7 +165,7 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-<h3>NEXT Process and Steps: ENABLE IIS WEB SERVICES AND CGI</h3>
+## <h3>NEXT Process: ENABLE IIS WEB SERVICES AND CGI</h3>
 - Now once log inside 'osticket-vm then Retrieve osTicket-Installation-Files.zip and unzip so it can be on the desktop.
 - Type 'Windows + R and then Type 'Control' in the box to pullup Access Control Panel: 
 - Once In Control Panel Then Go to "Turn Windows features on or off" 
@@ -268,7 +268,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-## <h5>Install IIS URL Rewrite Module And Create a PHP Folder in the C Drive</h5> 
+## <h5>Next Process: Install IIS URL Rewrite Module And Create a PHP Folder in the C Drive</h5> 
  - Locate rewrite_amd64_en-US.msi and proceed with installation.
  - osTicket relies on URL rewriting for proper navigation and functionality. 
  - Install the PHP Runtime
@@ -361,7 +361,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
   
 
 
-## Install and Configure MySQL Server
+## <h6>Next Process: Install and Configure MySQL Server</h6>
 ## 1. Locate 'mysql-5.5.62-win32.msi' and initiate installation folder and begin the installation process.
 
   <details><summary>See screenshots</summary>
@@ -456,7 +456,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 
-### <h6>REGISTER PHP WITH IIS</h6>
+### <h6>Next Process: REGISTER PHP WITH IIS (Internet Information Services)</h6>
 - How To Open IIS Manager 
 - How To Register PHP 
 - How To Restart IIS 
@@ -742,19 +742,20 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/60b31b71-0e3e-4bb0-9c63-215fcacace33" />
 
 
-### <h7>Setup Administrator Credentials For osTicket Helpdesk Browser</h7>
+### <h7>Net Process:Setup Administrator Credentials For osTicket Helpdesk Browser</h7>
 - Name Helpdesk
 - Passwords
 - Default email (receives email from customers)
 - Everyday used Emails
-
-## 1. Click the 'Continue' button from the local host osTicket
+ 
   <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
-  <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/66e91b5e-0c43-429b-a59e-e67d6c6856d4" />
+## 1. Click the 'Continue' button from the local host osTicket
+ 
+<img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/66e91b5e-0c43-429b-a59e-e67d6c6856d4" />
 
   ## 2. Type into the System setting Fields
 
