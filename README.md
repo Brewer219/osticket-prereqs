@@ -173,7 +173,7 @@ Create an Azure Virtual Machine with the following settings.
 
 
 
-
+(--)
 
 
 
