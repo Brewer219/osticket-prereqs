@@ -56,7 +56,10 @@ Create an Azure Virtual Machine with the following settings.
 ## 1. Creating Resource Group
 
 <img width="456" height="383" alt="osTicket creating a Resource Group" src="https://github.com/user-attachments/assets/f0202a8d-f5b1-4ada-afa9-82ec18eb92c6" />
+
+
 ## 2. Click Review+Create Button
+
 <img width="621" height="467" alt="osTicket then click last button Create" src="https://github.com/user-attachments/assets/81eb03f6-c997-4b76-bd77-7f63baaa16fb" />
 
 
