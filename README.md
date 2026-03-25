@@ -83,9 +83,21 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="osTicket creating credentials for to log into vm machine" src="https://github.com/user-attachments/assets/dab0b5fb-ab86-40c0-91ab-4cfc2e97c4c7" />
 
-## 8. For osTicket VM Clicking On the License Box to Confirm Licensing
+## 8. For osTicket VM Clicking On the License Box to Confirm Licensing and Click On Disk Tab
 
 <img width="321" height="467" alt="osTicket vm creating confirm licensing by checkbox" src="https://github.com/user-attachments/assets/46c0f6e1-d0cb-4df8-8a7e-ad761eaed611" />
+
+## 9. From Disk Tab Click On Networking Tab
+
+<img width="321" height="467" alt="osTicket vm Networking tab make sure subnet is default and virtual network correct" src="https://github.com/user-attachments/assets/4d172549-f615-468d-9487-02b23a41e7e6" />
+
+## 10. From There On The Networking Tab make sure The Subnet is Default And Then Click Review+Create Button 
+
+<img width="322" height="467" alt="osTicket vm Networking tab make sure subnet is default and virtual network correct" src="https://github.com/user-attachments/assets/e2b7af51-6edc-429b-a630-8b2719c7d720" />
+
+
+
+
 
 
 
