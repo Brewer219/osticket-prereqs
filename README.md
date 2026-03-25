@@ -572,9 +572,37 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
   
   ## 3. In IIS Manager, enable the following extension
-   -'php_imap.dll'
+ -'php_imap.dll'
  -'php_intl.dll'
  -'php_opcache.dll'
+ <details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+ 
+ <img width="321" height="467" alt="For Extension put enable mode for imap" src="https://github.com/user-attachments/assets/3199a0aa-0f18-41eb-a1b5-9e59b9a63887" />
+
+  <details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+ <img width="321" height="467" alt="For Extension intl put enable mode" src="https://github.com/user-attachments/assets/c9d9de6d-3ca2-4345-8fa8-50ad1b196ab1" />
+
+ <details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="For Extension opcache put enable mode" src="https://github.com/user-attachments/assets/689cd4e3-aa64-47aa-9e02-a3fe6e5f6463" />
+
+ 
+
+ 
+
+
+ 
+
   ## 4. Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click and set permissions for "Everyone" temporarily.
 
 [!Important]: This is insecure and should be restricted in real production environments. Assigning Everyone permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this lab to avoid installation issues; permissions should be restricted after setup in real environments.
