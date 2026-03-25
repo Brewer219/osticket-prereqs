@@ -325,10 +325,6 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-
-
-
-
 ## <h5>Install Visual C++ Redistributable</h5> 
 
 ## 1. Go back into osTicket-Installation Folder and click 'VC_redist.x86.exe' to install the neccessary libraries.
@@ -473,15 +469,23 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 ## 2. Double-click on the PHP Manager "Register New PHP Version"
-<details><summary>See screenshot</summary>
+<details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
 <img width="321" height="467" alt="Once IIS Manager is open as Admin the register the PHP Manager by clicking it " src="https://github.com/user-attachments/assets/f3dd183f-f53d-4f57-8ce4-8ac42b375d70" />
 
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="944" height="497" alt="Once double clicking the PHP Manager inside IIS Manager then click &#39;Register new PHP version&#39;" src="https://github.com/user-attachments/assets/472c316c-8505-44e6-9a7a-98b082646eb8" />
+
+
 ## 3. browse to C: drive to find PHP to select 'php-cgi.exe'.
-<details><summary>See screenshot</summary>
+<details><summary>See screenshot </summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -490,7 +494,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 <img width="321" height="467" alt="Extracting php cgi" src="https://github.com/user-attachments/assets/7e54ce29-544a-458a-be09-05832091372f" />
 
 
-## 4. Make the php-cgi.exe is fully 'Installed'
+## 4. Make sure the php-cgi.exe is fully 'Installed'
 <details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
