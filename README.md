@@ -218,6 +218,12 @@ Create an Azure Virtual Machine with the following settings.
 <img width="321" height="467" alt="osTicket installing IIS by typing &#39;control&#39; in windows R box for pulling up control panel" src="https://github.com/user-attachments/assets/77b55e2d-d33e-45c3-9a75-93348ca62758" />
 
 ## 4. Once Inside The Control Panel Click 'Programs'
+
+ <details><summary>See screenshot</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
 <img width="321" height="467" alt="Once inside Control Panel then click on Programs" src="https://github.com/user-attachments/assets/cee86e92-abbb-4f05-92ca-ed03f7c13b16" />
 
 ## 5. Click or Select 'Windows features on or off 
