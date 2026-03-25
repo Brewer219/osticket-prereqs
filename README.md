@@ -287,7 +287,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
  - Install the PHP Runtime
  - Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
  - Extract PHP Files: 'php-7.3.8-nts-Win32-VC15-x86.zip' into the newly created C:\PHP directory.
- - Install Visual C++ Redistributable: Run 'VC_redist.x86.exe' to install the neccessary libraries.
+ 
    
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
@@ -339,6 +339,37 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
+
+
+
+## <h5>Install Visual C++ Redistributable</h5> 
+
+## 1. Go back into osTicket-Installation Folder and click 'VC_redist.x86.exe' to install the neccessary libraries.
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Next Install VC redist 86x" src="https://github.com/user-attachments/assets/78cce297-230e-481c-aedd-b8e5869e206e" />
+
+## 2. In The Visual C++ below click 'agree to licensing terms and conditions'
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="VC redist 86x C++ click the Licensing Box and click Install" src="https://github.com/user-attachments/assets/766021a2-8d52-4e68-8ac8-a96450601bce" />
+
+## 3. This file will fully load and install and once it does then click 'Close'
+
+<details><summary>See screenshots</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="VC redist C++ once installed fully the click &#39;Close&#39; button" src="https://github.com/user-attachments/assets/d4d8e6cb-c5f0-402c-a737-139f8b46e876" />
 
 
 
