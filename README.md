@@ -152,6 +152,14 @@ Create an Azure Virtual Machine with the following settings.
 
 <img width="321" height="467" alt="osTicket VM the RDP file is Downloaded" src="https://github.com/user-attachments/assets/3d666453-c0a8-4d9c-8725-3ce816726916" />
 
+## 15. Lastly Open the 'osticket-vm' And I type In Your Credentials to Login to Virtual Machine
+<details><summary>See screenshot</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details> 
+
+<img width="321" height="467" alt="Logging into my osTicket vm with credentials or password" src="https://github.com/user-attachments/assets/998c4e61-adc3-45dd-8173-8d994f581353" />
+
+
 
 
 
