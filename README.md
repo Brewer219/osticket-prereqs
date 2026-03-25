@@ -49,6 +49,11 @@ Create an Azure Virtual Machine with the following settings.
 - Password: osTicketPassword1!
 
 > Important To NOTE: Credentials needs to be manage securely using a password manager.
+<details><summary>See screenshots</summary>
+<img src="images/Step 3a.PNG" width="60%" >
+</details> 
+1. <img width="556" height="533" alt="osTicket creating a Resource Group" src="https://github.com/user-attachments/assets/f0202a8d-f5b1-4ada-afa9-82ec18eb92c6" />
+
 
 
 <h3>ENABLE IIS WEB SERVICES AND CGI</h3>
