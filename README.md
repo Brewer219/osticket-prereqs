@@ -48,9 +48,7 @@ Create an Azure Virtual Machine with the following settings.
 - Password: osTicketPassword1!
 
 > Important To NOTE: Credentials needs to be manage securely using a password manager.
-<details><summary>See screenshots</summary>
-<img src="images/Step 3a.PNG" width="60%" >
-</details> 
+
 
  
 ## 1. Creating Resource Group
