@@ -569,6 +569,11 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img width="321" height="467" alt="osTicket Installation Folder right click v1 15 8 to Extract it" src="https://github.com/user-attachments/assets/9c312ccb-ec6b-439d-84dc-4f05d0af11ca" />
 
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
  
   <img width="321" height="467" alt="Once you get to the Extract Compressed box the lean it at v1 15 8 and below click &#39;Extract&#39; button" src="https://github.com/user-attachments/assets/2f89971e-58c3-4cfa-9af7-a49958908415" />
   
