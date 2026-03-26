@@ -570,10 +570,9 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-  
-  
-  <img width="321" height="467" alt="Now osTicket v1 15 8 is fully unzip or Extracted and made another folder uptop" src="https://github.com/user-attachments/assets/4bac78f8-92cb-49e2-9981-277ddc0061da" />
-  <details><summary>See screenshot 2</summary>
+
+<img width="321" height="467" alt="osTicket Installation Folder right click v1 15 8 to Extract it" src="https://github.com/user-attachments/assets/7535dea1-a3bb-4503-a65d-87dae0f1c6f0" />
+
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -585,8 +584,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-  <img width="321" height="467" alt="Once extensions are Enable then Refresh the localhost osTickert" src="https://github.com/user-attachments/assets/cb37d8a2-9602-492e-8739-0d7d06ea95ee" />
-
+ <img width="321" height="467" alt="Now osTicket v1 15 8 is fully unzip or Extracted and made another folder uptop" src="https://github.com/user-attachments/assets/4bac78f8-92cb-49e2-9981-277ddc0061da" />
 
 
   ## 2. Then copy the 'upload' folder to'C:\inetpub\wwwroot', renaming it to 'osTicket'.
@@ -655,6 +653,25 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 </details>
 
 <img width="321" height="467" alt="For Extension opcache put enable mode" src="https://github.com/user-attachments/assets/689cd4e3-aa64-47aa-9e02-a3fe6e5f6463" />
+
+Now all PHP Extensions are now 'ENABLED'.
+ <details><summary>See screenshot 5</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="After leaving osTicket localhost and clicking PHP Manager click &#39;Enable or disable an extension&#39;" src="https://github.com/user-attachments/assets/eab54ab3-e663-4026-b1aa-297d023af59c" />
+
+ <details><summary>See screenshot 6</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="The localhost osTicket new refresh page" src="https://github.com/user-attachments/assets/adba184c-9713-41f4-979a-1b0ae3f975af" />
+
+
 
  
  
