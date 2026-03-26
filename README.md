@@ -278,7 +278,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
  ## <h6>Next Process: Then Install URL Rewrite Module</h6>
-# 1.Locate rewrite_amd64_en-US.msi which is located inside the unzip "osTicket-Installation-Files" from desktop and double-click and the rewrite module box will pop-up as shown below:
+# 1. Now how I locate rewrite_amd64_en-US.msi is by locating my unzip "osTicket-Installation-Files" from desktop and then double-clicking the file so the rewrite module box will pop-up as shown below:
 
 <details><summary>See screenshot 1</summary>
 
@@ -287,7 +287,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
    <img width="321" height="467" alt="osTicket Installation the inside look for rewrite file" src="https://github.com/user-attachments/assets/a3d2c890-072e-42bf-86c0-554edd8fc912" />
 
-   ## 2. Once I double-click the file then the "IIS URL Rewrite Module 2 Setup" box will popup and from there checkbox the terms in the License Agreement to make sure I had accept license which is shown from image below
+   ## 2. Once I double-click the file then the "IIS URL Rewrite Module 2 Setup" box will pop-up and from there I then checkbox the terms in the License Agreement to make sure I had accept license which is shown from image below:
    
 <details><summary>See screenshot 2</summary>
 
@@ -296,7 +296,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
    
 <img width="321" height="467" alt="osTicket Installation folder once &#39;rewrite&#39; file is clicked the checkbox Licensing Agreement and click Install" src="https://github.com/user-attachments/assets/ac5bec51-23a8-4b19-ac09-0cf6f4473ae1" />
 
-## 3. From There click "Install" button and allow the 'rewrite_amd64_en-US" to install as shown from the image shown below:
+## 3. From there I proceed to click "Install" button and allow the 'rewrite_amd64_en-US" to install as shown from the image shown below:
 
 <details><summary>See screenshot 3</summary>
 
@@ -306,7 +306,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="osTicket Installaing Folder &#39;rewrite&#39; file is loading " src="https://github.com/user-attachments/assets/ce7bb055-619b-413e-b394-505e34685ce2" />
 
-## 4. Once the rewrite file is completely installed then click the "finish" button as shown in the image shown below:
+## 4. Once the rewrite file is completely installed then I also click the "finish" button once I was able to successfully install my "rewrite_amd64_en-US" as shown in the image shown below:
 
 <details><summary>See screenshot 4</summary>
 
@@ -319,9 +319,9 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-#### <h3> Creation of PHP Folder</h3> 
+#### <h3>Next Process: Creation of PHP Folder</h3> 
 
-## 1.Right-Click File Explorer and Click 'Windows C:' Drive
+## 1.To get to creating my PHP folder I right-click my File Explorer folder and then Click my 'Windows C:' Drive
 
 <details><summary>See screenshot</summary>
 
@@ -330,7 +330,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="osTicket Installation rightclick File Explorer and click Windows C drive" src="https://github.com/user-attachments/assets/63fe51df-a26e-4cae-a699-68a7abcb6b81" />
 
-## 2. In The 'C:' Drive create a new folder and name it PHP
+## 2. In my 'C:' Drive I proceed to create a new folder  by right-clicking a random spot and choose create 'new folder' and then I name it PHP
 
 <details><summary>See screenshots</summary>
 
@@ -338,7 +338,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 </details>
 <img width="321" height="467" alt="osTicket Installation once in C drive name the new folder PHP" src="https://github.com/user-attachments/assets/70757d1d-17bc-4fdf-97a3-c0392691ab5b" />
 
-## 3. Then go back to PHP 7.3.8 and click it
+## 3. Then I go back to osTicket-Installation-File that's unzipped where PHP 7.3.8 
 <details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -353,7 +353,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="osTicket Installation php 7 3 8 being extracted by clicking on PHP folder" src="https://github.com/user-attachments/assets/66608b9c-57a4-49ff-b781-c94e6a3b81d6" />
 
-## 5. Then Browse and select the PHP folder that was recently created
+## 5. Then I browse and select the PHP folder that was recently created by me
 
 <details><summary>See screenshots</summary>
 
@@ -366,7 +366,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 ## <h7>Install Visual C++ Redistributable</h7> 
 
-## 1. Go back into osTicket-Installation Folder and click 'VC_redist.x86.exe' to install the neccessary libraries.
+## 1. I went back into my osTicket-Installation Folder again and click 'VC_redist.x86.exe' to install the neccessary libraries as shown in image below:
 
 <details><summary>See screenshots</summary>
 
@@ -377,7 +377,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 >[!NOTE] Understand that osTicket relies on URL rewriting for proper navigation and functionality. 
 
-## 2. In The Visual C++ below click 'agree to licensing terms and conditions'
+## 2. In The Visual C++ below click I checked box I 'agree to licensing terms and conditions' as shown in image below:
 
 <details><summary>See screenshots</summary>
 
@@ -386,7 +386,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="VC redist 86x C++ click the Licensing Box and click Install" src="https://github.com/user-attachments/assets/766021a2-8d52-4e68-8ac8-a96450601bce" />
 
-## 3. This file will fully load and install and once it does then click 'Close'
+## 3. I understand that this file that I'm installing will fully load and install and once it does then click 'Close' as shown in the image below:
 
 <details><summary>See screenshots</summary>
 
@@ -399,7 +399,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 ## <h6>Next Process: Install and Configure MySQL Server</h6>
-## 1. Locate 'mysql-5.5.62-win32.msi' and initiate installation folder and begin the installation process.
+## 1. In this process for this discrepancy  I went back to my "osTicket-Installation-File folder that unzip and inside I located 'mysql-5.5.62-win32.msi' and initiate installation and begin the installation process.
 
   <details><summary>See screenshots</summary>
 
@@ -407,7 +407,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 </details>
    <img width="321" height="467" alt="Install mysql 5 5 62 for osTicket database" src="https://github.com/user-attachments/assets/eae6e8ee-f9fe-4a6b-9f3f-47b72672af32" />
 
-   ## 2. Accept the Licensing and Terms for mysql-5.5.62
+   ## 2. I 'Accept the Licensing and Terms' for mysql-5.5.62
    
    <details><summary>See screenshots</summary>
 
@@ -419,7 +419,8 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
    
-## 3. Select Typical Installation: <details><summary>See screenshots</summary>
+## 3. I then Select 'Typical' Installation shown in the image below:
+<details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -431,7 +432,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 
 
-## 4. Click Install and launch the MySQL Configuration Wizard.
+## 4. I click Install and launch the MySQL Configuration Wizard shown in image below:
 <details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -441,7 +442,8 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 <img width="321" height="467" alt="mysql server database click Install button" src="https://github.com/user-attachments/assets/3aceda39-14e4-4777-90eb-cba4b5c265cc" />
 
 
-## 5. Configuration Wizard: Select Standard Configuration Options<details><summary>See screenshots</summary>
+## 5. Configuration Wizard: Select Standard Configuration Options
+<details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -450,7 +452,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 <img width="321" height="467" alt="To launch mysql database configuration click the &#39;Standard&#39; option" src="https://github.com/user-attachments/assets/cba6c1d8-15c1-457d-874a-ee1c0b857916" />
 
 
-## 6. Continue selecting Next until you reach the Modify Security Settings screenand set both the username and password to 'root'. Then Finish the setup.
+## 6. I Continue selecting Next as leaving everything else 'as is' until I had reach the Modify Security Settings screen and set both the username and password to 'root'. Then Finish the setup.
 <details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -462,7 +464,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
  After installation completes, launch the MySQL Configuration Wizard
 
 
-## 7. Proceed by selecting Next Click Execute
+## 7. I proceed by selecting 'Next' and clicking 'Execute' button that shown in the image below:
 <details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -472,7 +474,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 <img width="321" height="467" alt="after typing &#39;root&#39; for password in mysql for configuration process then click the&#39;Execute&#39; button" src="https://github.com/user-attachments/assets/c807c715-fbe7-48e7-be26-7fb9dca7b9ab" />
 
 
-## 8. Finish the configuration
+## 8. I Finish the configuration on my "mysql 5.5.62' file
 <details><summary>See screenshots</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -497,7 +499,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 - How To Restart IIS 
 
 
-## 1. Search for IIS which is Internet Information Services, right-click, and then select Run as Administrator.
+## 1. In my virtual desktop I search for IIS which is "Internet Information Services" and right-click, and then select Run as Administrator.
 <details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -507,7 +509,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 
-## 2. Double-click on the PHP Manager "Register New PHP Version"
+## 2. Once I got to my IIS Manager home page I then double-click on the PHP Manager "Register New PHP Version" which is shown in my image below:
 <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -524,7 +526,7 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 
 ## 3. browse to C: drive to find PHP to select 'php-cgi.exe'.
-<details><summary>See screenshot </summary>
+<details><summary>See screenshot</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
@@ -677,7 +679,9 @@ Now all PHP Extensions are now 'ENABLED'.
  
  
 
-  ## 4. Rename 'ost-sampleconfig.php' to 'ost-config.php', right-click to go to 'Properties' option and set permissions for "Everyone" temporarily.
+  ## <h4>Next Process and Procedures For 'ost-sampleconfig.php': 
+  
+  ## 1. Rename 'ost-sampleconfig.php' to 'ost-config.php',  option and set permissions for "Everyone" temporarily.</h4>
   <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -685,12 +689,16 @@ Now all PHP Extensions are now 'ENABLED'.
   <img width="321" height="467" alt="Once in the &#39;INCLUDE&#39; folder rename ost sample to ost config" src="https://github.com/user-attachments/assets/b0dfd33f-ae3e-4226-9c3b-c6bd506f16e2" />
 
   
+## 2. I then right-click to go to and click 'Properties' option
+  
  <details><summary>See screenshot 2</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="ost-sampleconfig to new name ost-config" src="https://github.com/user-attachments/assets/895e6107-20bf-4295-aaaa-050ad43d7690" />
 
+
+## 3. From there I click on the 'Security' tab in my 'ost-config.php' which is shown in my below image:
  <details><summary>See screenshot 3</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -698,11 +706,15 @@ Now all PHP Extensions are now 'ENABLED'.
 
 <img width="321" height="467" alt="Right click ost config and select Properties and click the Security tab then click &#39;Advance&#39;" src="https://github.com/user-attachments/assets/341bf16e-a050-42a6-b1a7-ba1e68dff56d" />
 
+## 4. I then from there clicked the 'Advanced' button and also I click the button that said 'disable inheritance' on the left which is shown in the image below:
+
  <details><summary>See screenshot 4</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="For ost config after going into Properties and clicking &#39;Security&#39; tab and clicking the &#39;Advanced&#39; button then click on the &#39;Disable inheritance&#39;" src="https://github.com/user-attachments/assets/3bebe81d-e59c-4651-b25d-866b168c45f4" />
+
+## 5. I then clicked on the second to feature option 'Remove all inherited permission from the object' so it can remove the old permission it orginally had and so i can make new permissions.
 
 <details><summary>See screenshot 5</summary>
 
@@ -711,6 +723,8 @@ Now all PHP Extensions are now 'ENABLED'.
 
 <img width="321" height="467" alt="for ost config once clicking the &#39;Advanced&#39; button and then click &#39;disable inheritances&#39; and click option to REMOVE inherit permission" src="https://github.com/user-attachments/assets/50d2e8e0-a67f-4ed2-82ad-317f180bf3e8" />
 
+
+## 6. From here the next step I did was click the "Add" button once i cleared out the old permissions from above.
 <details><summary>See screenshot 6</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -718,7 +732,7 @@ Now all PHP Extensions are now 'ENABLED'.
 
 <img width="321" height="467" alt="Now there no permissions and click the &#39;Add&#39; button to add new permissions" src="https://github.com/user-attachments/assets/1eef9cb9-de64-4274-b8f6-6966fdc0d5fd" />
 
-
+## 7. From there a new page will open to select a new 'Principal' where I clicked left from about that is shown in image below:
 
 <details><summary>See screenshot 7</summary>
 
@@ -727,12 +741,16 @@ Now all PHP Extensions are now 'ENABLED'.
 
 <img width="321" height="467" alt="ost config permission entry box click &#39;Select a principal&#39;" src="https://github.com/user-attachments/assets/4350a50d-1bec-4158-91f2-05233687295d" />
 
+## 8. From that step what happened was my 'Select User or Group" box popped up and for project purposes to give an example and to make everything configured correctly I choosed to type and give permissions privilege to 'EVERYONE" which the word I use to type in the box.
+
 <details><summary>See screenshot 8</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
 <img width="321" height="467" alt="Permission Entry ost config type Everyone with understanding it not good to do in real life because security reasons" src="https://github.com/user-attachments/assets/0b34360d-fcdf-4bc1-940a-b27cb7166664" />
+
+## 9. Next step I then click the option for 'EVERYONE' to get 'FULL CONTROL' option feature for the php configuration file in the 'INCLUDE' folder.
 
 <details><summary>See screenshot 9</summary>
 
@@ -741,11 +759,16 @@ Now all PHP Extensions are now 'ENABLED'.
 
 <img width="321" height="467" alt="In Permission Entry ost config click &#39;Full Control&#39; box then click OK" src="https://github.com/user-attachments/assets/cd48e879-e005-4103-b0ef-f488ff59117d" />
 
+## 10. After that I then click the 'Apply' button to apply the changes.
+
 <details><summary>See screenshot 10</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Click Apply from ost config Advanced Security Settings" src="https://github.com/user-attachments/assets/5ce23612-4e1b-4a4e-80f6-ce7490f3e765" />
+
+
+## 11. Next step I did was click the 'OK' button as shown in image below:
 
 <details><summary>See screenshot 11</summary>
 
@@ -755,11 +778,11 @@ Now all PHP Extensions are now 'ENABLED'.
 <img width="321" height="467" alt="Then for ost config after clicking &#39;Apply&#39; the click the OK button" src="https://github.com/user-attachments/assets/87dc4149-cb2d-4c58-87a9-9a24779aaed9" />
 
 
-[!Important]: This is insecure and should be restricted in real production environments. Assigning 'Everyone' permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this project to avoid installation issues; permissions should be restricted after setup in real business environments.
+[!Important VERY TO NOTE]: This is insecure and should be restricted in real production environments. Assigning 'Everyone' permissions to ost-config.php is insecure because it allows unrestricted access to a sensitive configuration file. This is done temporarily in this project to avoid installation issues; permissions should be restricted after setup in real business environments.
 
 
 
-## 4. Now go back IIS Manager to reload it by restarting the web server again, stop and start instructions
+## 4. Now go back IIS Manager to reload it by restarting the web server again, stop and start instructions and here are my images below:
 <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -806,17 +829,16 @@ Now all PHP Extensions are now 'ENABLED'.
 - Passwords
 - Default email (receives email from customers)
 - Everyday used Emails
- 
+ ## 1. Scroll down and click the 'Continue' button from the local host osTicket from image below:
+  
   <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
-## 1. Click the 'Continue' button from the local host osTicket
- 
 <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/66e91b5e-0c43-429b-a59e-e67d6c6856d4" />
 
-  ## 2. Type into the System setting Fields
+  ## 2. Type into the System setting Fields as shown in my image below:
 
   <details><summary>See screenshot 2</summary>
 
@@ -824,6 +846,8 @@ Now all PHP Extensions are now 'ENABLED'.
 </details>
 
   <img width="321" height="467" alt="Typing into osTicket Fields before Installing" src="https://github.com/user-attachments/assets/6b7369b0-2459-4aaf-bf41-39e7a08bfcef" />
+
+  ## 3.  I was able to filling in the fields that was relatable to Heidi
 
    <details><summary>See screenshot 3</summary>
 
@@ -835,7 +859,7 @@ Now all PHP Extensions are now 'ENABLED'.
 
 
 
-### <h11>INSTALL HEIDISQL AND CONFIGURE SQL</h11>
+### <h11> Next Procedure: CONFIGURATE and INSTALL HEIDISQL for osTicket Installation Credentials</h11>
 
 Before we select Install Now, we will need to configure our SQL and create the database and connection that osTicket will use.
 - Install HeidiSQL: 
@@ -854,11 +878,11 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - Complete Installation: "Select Install Now" button.
 
 
-'HeidoSQL_12.3.0.6589_Setup.exe' with default settings.
+ Install 'HeidiSQL_12.3.0.6589_Setup.exe' with default settings.
  Connect using 'root' as the password, create a database named 'osTicket'.
  The osTicket setup, select Continue >> near the bottom.
  In System Settings, enter the help desk name and default email.
-  In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password2</code>.
+  In Admin User, enter admin name and admin email address, for username and password, we will set it to VBAdminuser and <code>Password2</code>.
  find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
 Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
  Recircle back to Heidi database server Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: 'osTicket' (no space and capital T), and select OK.Run 
@@ -866,13 +890,14 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
  Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
  Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run  
 
-## Below Here are the procedures to do an Heidi Installation for osTicket Signup:
+## Below Here are the procedures and  I used to setup my Heidi Installation the programs to signup and setup osTicket Signup:
 <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Typing out in the Fields for osTicket before Installing" src="https://github.com/user-attachments/assets/3e0b8436-5d7b-472f-9e8d-1031db6a94d1" />
 
+## 2. I went to my unzip "osTicket-Installation-File" on my desktop and went inside folder and double-clicked on the HeidiSQL and accepted the Licensing in the image shown below:
 
 <details><summary>See screenshot 2</summary>
 
@@ -881,13 +906,14 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img width="466" height="346" alt="after getting this from desktop osTickect installation and accepting the licnese for Heidi click Next button" src="https://github.com/user-attachments/assets/4c43caf4-bd6a-4f05-823d-25a2d2d8ac85" />
 
+## 3. I pressed forward and installed Heidi menu bar shown in my image below:
 <details><summary>See screenshot 3</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Heidi Menus Bar click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/a7f6be04-af06-4f15-ae2e-16083892ade3" />
 
-
+## 4. I made sure all 'Additional Task' was checked box and clicked next which is shown in the image below that I created a screenshot for.
 
 <details><summary>See screenshot 4</summary>
 
@@ -897,12 +923,16 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 
 
+## 5. I finally then installed the Heidi SQL database for osTicketing system shown in my other image below:
+
 <details><summary>See screenshot 5</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
 <img width="321" height="467" alt="The Final Heidi Installing Now" src="https://github.com/user-attachments/assets/f624230e-350c-4dfb-b026-eb433ef58975" />
+
+## 6. I finally came to a finish line for my Heidi SQL Wizard that was completed and I clicked below the 'Finish' button shown on the image below:
 
 <details><summary>See screenshot 6</summary>
 
@@ -911,11 +941,15 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img width="321" height="467" alt="Final Final click the &#39;Finish&#39; button for Heidi" src="https://github.com/user-attachments/assets/190b1503-d9f8-4496-bb26-c07393850ad3" />
 
+## 7. Then instead of checking update for my HEIDI SQL I then clicked the 'skip' button
+
 <details><summary>See screenshot 7</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Check for Heidi Updates click the &#39;Skip&#39; button" src="https://github.com/user-attachments/assets/ae038218-2498-4e21-a469-5051299b09b3" />
+
+## 8. I then opened up my Heidi SQL Session Manager and click the 'New' button which is shown in image below:
 
 <details><summary>See screenshot 8</summary>
 
@@ -923,17 +957,23 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 </details>
 <img width="321" height="467" alt="Heidi Opens up with Session Manager box now below on Left click on New button" src="https://github.com/user-attachments/assets/b37e31c6-eae1-4951-902a-77b7552bb583" />
 
+## 9. In the Session Manager for Heidi SQL I type in my original password that I created under mysql server which was 'root' and where I have it in the image below:
+
 <details><summary>See screenshot 9</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Heidi session type &#39;root&#39; for Password field to as well which was set up in mysql 5 5 62 and click &#39;Open&#39;" src="https://github.com/user-attachments/assets/6db4c306-5067-41fc-a32d-df8746903f45" />
 
+# 10. I then created a database for 'osTicket' by right-clicking 'unnarmed' dolphin icon and then selecting 'create new', the selecting 'database' and a
+
 <details><summary>See screenshot 10</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="For Heidi now a click is open to osTicket database" src="https://github.com/user-attachments/assets/d5f9bf23-c26d-4d27-a5e1-7b6a3a028baa" />
+
+## 11. I then created a database for 'osTicket' by right-clicking 'unnarmed' dolphin icon shown in the image below:
 
 <details><summary>See screenshot 11</summary>
 
@@ -942,6 +982,8 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img width="321" height="467" alt="Inside Heidi database Host page right click &#39;unarmed&#39; then click &#39;create new&#39; then click &#39;database&#39;" src="https://github.com/user-attachments/assets/99101f73-75cf-4089-8db6-af3e6e88825d" />
 
+
+## 12. from there I select the option 'create new'
 <details><summary>See screenshot 12</summary>
 
 <img src="images/Step 2b.png" width="60%">
