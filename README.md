@@ -273,12 +273,12 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
  - Install the PHP Runtime
  - Create PHP Directory: Create a folder and name it "PHP" on the C:\drive.
  
- 
-   
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
+
+
  ## <h6>Next Process: Then Install URL Rewrite Module</h6>
-# 1.Locate rewrite_amd64_en-US.msi and proceed with installation and This is how you would install this file just by following these procedures with the images below.
+# 1.Locate rewrite_amd64_en-US.msi which is located inside the unzip "osTicket-Installation-Files" from desktop and double-click and the rewrite module box will pop-up as shown below:
 
 <details><summary>See screenshot 1</summary>
 
@@ -286,14 +286,17 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 </details>
 
    <img width="321" height="467" alt="osTicket Installation the inside look for rewrite file" src="https://github.com/user-attachments/assets/a3d2c890-072e-42bf-86c0-554edd8fc912" />
+
+   ## 2. Once I double-click the file then the "IIS URL Rewrite Module 2 Setup" box will popup and from there checkbox the terms in the License Agreement to make sure I had accept license which is shown from image below
    
 <details><summary>See screenshot 2</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
-
    
 <img width="321" height="467" alt="osTicket Installation folder once &#39;rewrite&#39; file is clicked the checkbox Licensing Agreement and click Install" src="https://github.com/user-attachments/assets/ac5bec51-23a8-4b19-ac09-0cf6f4473ae1" />
+
+## 3. From There click "Install" button and allow the 'rewrite_amd64_en-US" to install as shown from the image shown below:
 
 <details><summary>See screenshot 3</summary>
 
@@ -303,6 +306,7 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
 
 <img width="321" height="467" alt="osTicket Installaing Folder &#39;rewrite&#39; file is loading " src="https://github.com/user-attachments/assets/ce7bb055-619b-413e-b394-505e34685ce2" />
 
+## 4. Once the rewrite file is completely installed then click the "finish" button as shown in the image shown below:
 
 <details><summary>See screenshot 4</summary>
 
