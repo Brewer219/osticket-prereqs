@@ -750,18 +750,6 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 <img width="321" height="467" alt="After giving new permission to ost config file then hop back over to osTicket localhost and below click the &#39;Continue&#39; button" src="https://github.com/user-attachments/assets/60b31b71-0e3e-4bb0-9c63-215fcacace33" />
 
-## <h13> VERIFY INSTALLTION AND FUNCTIONAILTY</h113>
-Congratulations, refer to the screenshots to ensure functionality!
-- Admin Login: http://localhost/osTicket/scp/login.php
-- For End User to create tickets: http://localhost/osTicket/
-
-
-<details><summary>See screenshot 1</summary>
-
-<img src="images/Step 2b.png" width="60%">
-</details>
-<img width="321" height="467" alt="Congratulations osTicket finally and fully INSTALLED" src="https://github.com/user-attachments/assets/d0a809c4-28d4-4c10-aa5c-1973c8688e2c" />
-
 
 
 
@@ -809,37 +797,8 @@ Before we select Install Now, we will need to configure our SQL and create the d
 - In Admin User Field 
 - Back osTicket in the installation folder, find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
 - Navigating Session Manager window
-- Recircle back to Heidi database server 
-
-
-'HeidoSQL_12.3.0.6589_Setup.exe' with default settings.
- Connect using 'root' as the password, create a database named 'osTicket'.
- The osTicket setup, select Continue >> near the bottom.
- In System Settings, enter the help desk name and default email.
-  In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password1</code>.
- find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
-Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
- Recircle back to Heidi database server Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
- 
- Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
- Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
-
-
-
-
-
-<details><summary>See screenshots</summary>
-
-<img src="images/Step 2b.png" width="60%">
-</details>
-
-
-   <img width="322" height="442" alt="Step 15 Hedi" src="https://github.com/user-attachments/assets/25424f30-3efe-4783-a158-f167eaa04475" />
-
- 
-
-## <h12>Finalize osTicket Setup</h12>
-1. Continue Installation: Navigate to 'https://localhost/osticket/setup/'
+- Recircle back to Heidi database server
+- 1. Continue Installation: Navigate to 'https://localhost/osticket/setup/'
 Back in the web browser, we will continue the osTicket setup. Enter the following
 - MySQL Database Settings: 'osTicket'
 - MySQL Username: 'root'
@@ -847,12 +806,24 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 - Complete Installation: "Select Install Now" button.
 
 
+'HeidoSQL_12.3.0.6589_Setup.exe' with default settings.
+ Connect using 'root' as the password, create a database named 'osTicket'.
+ The osTicket setup, select Continue >> near the bottom.
+ In System Settings, enter the help desk name and default email.
+  In Admin User, enter admin name and admin email address, for username and password, we will set it to adminuser and <code>Password2</code>.
+ find <code>HeidiSQL_12.3.0.6589_Setup.exe</code>, and install it with all default settings, and select Finish to launch HeidiSQL.
+Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
+ Recircle back to Heidi database server Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: 'osTicket' (no space and capital T), and select OK.Run 
+ 
+ Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
+ Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
+
+
 <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 <img width="321" height="467" alt="Typing out in the Fields for osTicket before Installing" src="https://github.com/user-attachments/assets/3e0b8436-5d7b-472f-9e8d-1031db6a94d1" />
-
 
 
 <details><summary>See screenshot 2</summary>
@@ -927,6 +898,51 @@ Back in the web browser, we will continue the osTicket setup. Enter the followin
 </details>
 
 <img width="321" height="467" alt="Heidi osTicket database it will eventually create things inside of there" src="https://github.com/user-attachments/assets/58e282da-213f-4b25-9921-fd60f22b99de" />
+
+ 
+## <h13>VERIFY INSTALLTION AND FUNCTIONAILTY</h113>
+Congratulations, refer to the screenshots to ensure functionality!
+- Admin Login: http://localhost/osTicket/scp/login.php
+- For End User to create tickets: http://localhost/osTicket/
+
+
+<details><summary>See screenshot 1</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Congratulations osTicket finally and fully INSTALLED" src="https://github.com/user-attachments/assets/d0a809c4-28d4-4c10-aa5c-1973c8688e2c" />
+
+## 2.This image is the Administrative Login for Admins and Technical Support Teams right now it authenticating
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="osTicket 1st Login Verification for me the Admin" src="https://github.com/user-attachments/assets/3e5d82c2-940d-4dc6-8a26-c2866026dfd2" />
+
+## 3.This image is dealing with finally getting inside of osTicketing system
+<details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+<img width="321" height="467" alt="Finally login and inside osTicketing system " src="https://github.com/user-attachments/assets/15d76ef9-a59c-4327-9384-5e0986725f48" />
+
+## 4. This image below is osTicket End User Page where Users can submit tickets on any technical issues or inquiries they might have
+<details><summary>See screenshot 4</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket End User page setup for Users to submit tickets" src="https://github.com/user-attachments/assets/9a1dab15-6c9e-4a75-b081-98c7e76754c4" />
+
+
+
+
+
+
+
+
+
+
 
 
 
