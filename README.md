@@ -965,7 +965,7 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 </details>
 <img width="321" height="467" alt="Heidi session type &#39;root&#39; for Password field to as well which was set up in mysql 5 5 62 and click &#39;Open&#39;" src="https://github.com/user-attachments/assets/6db4c306-5067-41fc-a32d-df8746903f45" />
 
-# 10. I then created a database for 'osTicket' by right-clicking 'unnarmed' dolphin icon and then selecting 'create new', the selecting 'database' and a
+# 10. After I typed password the i clicked the 'OPEN' and now look at image below:
 
 <details><summary>See screenshot 10</summary>
 
@@ -983,7 +983,7 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 <img width="321" height="467" alt="Inside Heidi database Host page right click &#39;unarmed&#39; then click &#39;create new&#39; then click &#39;database&#39;" src="https://github.com/user-attachments/assets/99101f73-75cf-4089-8db6-af3e6e88825d" />
 
 
-## 12. from there I select the option 'create new'
+## 12. from there I select the option 'database'
 <details><summary>See screenshot 12</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -991,7 +991,7 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img width="321" height="467" alt="Heidi osTicket database it will eventually create things inside of there" src="https://github.com/user-attachments/assets/58e282da-213f-4b25-9921-fd60f22b99de" />
 
-
+## 13. I made sure that 'osTicket' was spelled correctly then I pressed 'OK' shown in option below:
 <details><summary>See screenshot 13</summary>
 
 <img src="images/Step 2b.png" width="60%">
