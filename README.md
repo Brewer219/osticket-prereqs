@@ -278,16 +278,46 @@ osTicket is a PHP-based web application. PHP Manager enables IIS to properly pro
  >[!NOTE] PHP Manager, installed earlier, is used to configure and manage this runtime environment.
 
  ## <h6>Next Process: Then Install URL Rewrite Module</h6>
-# 1.Locate rewrite_amd64_en-US.msi and proceed with installation.
-<details><summary>See screenshot</summary>
+# 1.Locate rewrite_amd64_en-US.msi and proceed with installation and This is how you would install this file just by following these procedures with the images below.
+
+<details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
 
    <img width="321" height="467" alt="osTicket Installation the inside look for rewrite file" src="https://github.com/user-attachments/assets/a3d2c890-072e-42bf-86c0-554edd8fc912" />
+   
+<details><summary>See screenshot 2</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+   
+<img width="321" height="467" alt="osTicket Installation folder once &#39;rewrite&#39; file is clicked the checkbox Licensing Agreement and click Install" src="https://github.com/user-attachments/assets/ac5bec51-23a8-4b19-ac09-0cf6f4473ae1" />
+
+<details><summary>See screenshot 3</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
 
 
-## 1. Right-Click File Explorer and Click 'Windows C:' Drive
+<img width="321" height="467" alt="osTicket Installaing Folder &#39;rewrite&#39; file is loading " src="https://github.com/user-attachments/assets/ce7bb055-619b-413e-b394-505e34685ce2" />
+
+
+<details><summary>See screenshot 4</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="osTicket Installation folder &#39;rewrite&#39; file is finished installing now hit the the Finished button" src="https://github.com/user-attachments/assets/fcf99b68-2e4e-4cc1-8184-9aa49a176291" />
+
+
+
+
+
+#### <h3> Creation of PHP Folder</h3> 
+
+## 1.Right-Click File Explorer and Click 'Windows C:' Drive
 
 <details><summary>See screenshot</summary>
 
