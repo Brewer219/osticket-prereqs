@@ -983,7 +983,7 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 <img width="321" height="467" alt="Inside Heidi database Host page right click &#39;unarmed&#39; then click &#39;create new&#39; then click &#39;database&#39;" src="https://github.com/user-attachments/assets/99101f73-75cf-4089-8db6-af3e6e88825d" />
 
 
-## 12. from there I select the option 'database'
+## 12. from there I select the option with a new database called 'osTicket' on the Left shown in image below:
 <details><summary>See screenshot 12</summary>
 
 <img src="images/Step 2b.png" width="60%">
