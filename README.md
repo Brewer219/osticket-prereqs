@@ -559,10 +559,6 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 
 ### <h9>Next Process: ENABLE OSTICKET FEATURES AND ASSIGN CONFIG PERMISSIONS</h9>
 * How To Extract osTicket Files
-* How To Enable PHP Extensions 
- -'php_imap.dll'
- -'php_intl.dll'
- -'php_opcache.dll'
 * How To Configure File Permissions
 
    ## 1. Extract 'osTicket-v1.15.8.zip' by right clicking the file
@@ -571,13 +567,9 @@ MySQL serves is the database backend for osTicket, storing tickets, user informa
 <img src="images/Step 2b.png" width="60%">
 </details>
 
-<img width="321" height="467" alt="osTicket Installation Folder right click v1 15 8 to Extract it" src="https://github.com/user-attachments/assets/7535dea1-a3bb-4503-a65d-87dae0f1c6f0" />
+<img width="321" height="467" alt="osTicket Installation Folder right click v1 15 8 to Extract it" src="https://github.com/user-attachments/assets/9c312ccb-ec6b-439d-84dc-4f05d0af11ca" />
 
-
-<img src="images/Step 2b.png" width="60%">
-</details>
-
-  
+ 
   <img width="321" height="467" alt="Once you get to the Extract Compressed box the lean it at v1 15 8 and below click &#39;Extract&#39; button" src="https://github.com/user-attachments/assets/2f89971e-58c3-4cfa-9af7-a49958908415" />
   
 <details><summary>See screenshot 3</summary>
