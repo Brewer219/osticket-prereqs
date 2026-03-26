@@ -816,9 +816,9 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
  Recircle back to Heidi database server Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: 'osTicket' (no space and capital T), and select OK.Run 
  
  Select Skip, in this Session Manager window, Select +New, and type <code>root</code> for the password here, and select Open.
- Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run 
+ Right-click the Unnamed session, and select Create new, and select Database. Enter for Name: osTicket (no space and capital T), and select OK.Run  
 
-
+## Below Here are the procedures to do an Heidi Installation for osTicket Signup:
 <details><summary>See screenshot 1</summary>
 
 <img src="images/Step 2b.png" width="60%">
@@ -837,15 +837,17 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+<img width="321" height="467" alt="Heidi Menus Bar click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/a7f6be04-af06-4f15-ae2e-16083892ade3" />
 
-<img width="321" height="467" alt="Heidi leave everything as is and click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/12dd90ba-ef42-49f5-9fd4-073a193b8afb" />
+
 
 <details><summary>See screenshot 4</summary>
 
 <img src="images/Step 2b.png" width="60%">
 </details>
+<img width="321" height="467" alt="Heidi leave everything as is and click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/12dd90ba-ef42-49f5-9fd4-073a193b8afb" />
 
-<img width="321" height="467" alt="Heidi Menus Bar click &#39;Next&#39; button" src="https://github.com/user-attachments/assets/a7f6be04-af06-4f15-ae2e-16083892ade3" />
+
 
 <details><summary>See screenshot 5</summary>
 
@@ -899,6 +901,18 @@ Select Skip, in this Session Manager window, Select +New, and type <code>root</c
 
 <img width="321" height="467" alt="Heidi osTicket database it will eventually create things inside of there" src="https://github.com/user-attachments/assets/58e282da-213f-4b25-9921-fd60f22b99de" />
 
+
+<details><summary>See screenshot 13</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="once right clicking &#39;unarmend&#39; and create new database now call it &#39;osTicket&#39;" src="https://github.com/user-attachments/assets/cad37cf4-03ac-4ce3-9060-22a0ab74ae8e" />
+
+>[!IMPORTANT NOTE] In this image you would need to type in the side the field 'osTicket' and like mentioned before with an captital 'T' and then click OK.
+
+
  
 ## <h13>VERIFY INSTALLTION AND FUNCTIONAILTY</h113>
 Congratulations, refer to the screenshots to ensure functionality!
@@ -933,6 +947,25 @@ Congratulations, refer to the screenshots to ensure functionality!
 </details>
 
 <img width="321" height="467" alt="osTicket End User page setup for Users to submit tickets" src="https://github.com/user-attachments/assets/9a1dab15-6c9e-4a75-b081-98c7e76754c4" />
+
+<details><summary>See screenshot 5</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+
+<img width="321" height="467" alt="After Fully INSTALLING osTicket go back to Heidi database and right click &#39;osticket&#39; and click refresh option" src="https://github.com/user-attachments/assets/d4928a44-1f7b-4978-8ae5-03aa1b3516d7" />
+
+<details><summary>See screenshot 6</summary>
+
+<img src="images/Step 2b.png" width="60%">
+</details>
+
+<img width="321" height="467" alt="Inside Heidi osticket after refreshing you see the fields and function, department BUILT into osTicket" src="https://github.com/user-attachments/assets/f23c3abd-7c5f-43c6-9111-38b54690f17d" />
+
+>[!NOTE]: As you look at the image above these are functionality on the backend of osTicketing systems that's already built in that I built on my own.
+
+
 
 
 
